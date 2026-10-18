@@ -1,0 +1,134 @@
+{
+  "id": "interview_general_v1",
+  "title": "AI 面試：入門職位",
+  "mode": "voice",
+  "calculator": "none",
+  "rubric": "interview_v1",
+  "steps": [
+    {
+      "type": "question",
+      "id": "cv_fallback_1",
+      "category": "cv",
+      "text": "請揀一段你最有代表性的經歷，講講你具體負責甚麼，結果如何。",
+      "followUp": "如果要用一個數字說明結果，會是甚麼？",
+      "textEn": "Tell me about one of your most representative experiences. What were you specifically responsible for, and what was the result?",
+      "followUpEn": "If you expressed the result with one number, what would it be?",
+      "textYue": "可唔可以揀一段最能代表你嘅經歷，講下你具體負責啲咩，同埋結果點樣？",
+      "followUpYue": "如果用一個數字講個結果，會係幾多？"
+    },
+    {
+      "type": "question",
+      "id": "cv_fallback_2",
+      "category": "cv",
+      "text": "你的 CV 上哪一項技能，最能幫你勝任這個職位？可以舉一個用過它的例子嗎？",
+      "followUp": "你會怎樣繼續提升這項技能？",
+      "textEn": "Which skill on your CV would most help you succeed in this role? Can you give an example of using it?",
+      "followUpEn": "How would you continue to improve this skill?",
+      "textYue": "你份 CV 有邊項技能最幫到你勝任呢個職位？可唔可以講個用過佢嘅例子？",
+      "followUpYue": "你會點樣繼續提升呢項技能？"
+    },
+    {
+      "type": "question",
+      "id": "beh_conflict",
+      "category": "behavioral",
+      "text": "可以講一次你在團隊中處理意見分歧的經驗嗎？",
+      "followUp": "如果重來一次，你會怎樣做得更好？",
+      "textEn": "Tell me about a time you handled a disagreement in a team.",
+      "followUpEn": "If you could do it again, what would you do better?",
+      "textYue": "可唔可以講一次你喺團隊入面處理意見分歧嘅經歷？",
+      "followUpYue": "如果再做一次，你會點樣做得更好？"
+    },
+    {
+      "type": "question",
+      "id": "beh_deadline",
+      "category": "behavioral",
+      "text": "講一次你趕不及限期的經歷，你當時怎樣處理？",
+      "followUp": "之後你改變了甚麼做法，避免再發生？",
+      "textEn": "Tell me about a time you missed a deadline. How did you handle it?",
+      "followUpEn": "What did you change afterwards to prevent it happening again?",
+      "textYue": "講一次你趕唔切限期嘅經歷，你當時點樣處理？",
+      "followUpYue": "之後你改咗啲咩做法，避免再發生？"
+    },
+    {
+      "type": "question",
+      "id": "beh_feedback",
+      "category": "behavioral",
+      "text": "講一次你收到負面意見的經驗，你怎樣回應？",
+      "followUp": "那次意見最後帶來了甚麼改變？",
+      "textEn": "Tell me about a time you received negative feedback. How did you respond?",
+      "followUpEn": "What changed as a result of that feedback?",
+      "textYue": "講一次你收到負面意見嘅經歷，你點樣回應？",
+      "followUpYue": "嗰次意見最後帶嚟咗啲咩改變？"
+    },
+    {
+      "type": "question",
+      "id": "sit_bad_data",
+      "category": "situational",
+      "text": "如果你負責的推廣活動第一週數據很差，你會先看哪些指標，下一步做甚麼？",
+      "followUp": "你會怎樣向上司匯報這個情況？",
+      "textEn": "If the first week's results for a campaign you manage were poor, which metrics would you look at first and what would you do next?",
+      "followUpEn": "How would you report the situation to your manager?",
+      "textYue": "如果你負責嘅推廣活動第一個星期數據好差，你會先睇邊啲指標，下一步做啲咩？",
+      "followUpYue": "你會點樣同上司講呢個情況？"
+    },
+    {
+      "type": "question",
+      "id": "sit_priority",
+      "category": "situational",
+      "text": "如果兩位上司同時給你緊急任務，而你只能先完成一項，你會怎樣處理？",
+      "followUp": "你會怎樣跟另一位上司溝通？",
+      "textEn": "If two managers gave you urgent tasks at the same time and you could only finish one first, what would you do?",
+      "followUpEn": "How would you communicate with the other manager?",
+      "textYue": "如果兩位上司同時畀你緊急任務，而你只可以先做完一項，你會點樣處理？",
+      "followUpYue": "你會點樣同另一位上司溝通？"
+    },
+    {
+      "type": "question",
+      "id": "ind_innotech",
+      "category": "industry",
+      "policyId": "four_centres_one_hub",
+      "text": "香港的五年規劃提出發展國際金融、貿易和創新科技等中心。你應徵的職位所在的行業，未來幾年可能因此出現甚麼新機會或新要求？你會怎樣準備？",
+      "followUp": "可以舉一個你已經開始準備的具體行動嗎？",
+      "textEn": "Hong Kong's five-year plan proposes developing international finance, trade and innovation centres. What new opportunities or requirements might this create in your target industry, and how would you prepare?",
+      "followUpEn": "Can you give one concrete action you have already started?",
+      "textYue": "香港五年規劃提出發展國際金融、貿易同創新科技等中心。你應徵職位所在嘅行業，未來幾年可能有啲咩新機會或者要求？你會點樣準備？",
+      "followUpYue": "可唔可以講一個你已經開始準備嘅具體行動？"
+    },
+    {
+      "type": "question",
+      "id": "ind_ai",
+      "category": "industry",
+      "policyId": "ai_upskilling",
+      "text": "政府推出 AI 技能提升計劃。你認為 AI 工具會怎樣改變這個職位的日常工作？你會怎樣提升自己？",
+      "followUp": "有沒有一個你用 AI 工具完成工作的例子？結果如何？",
+      "textEn": "The government has introduced an AI upskilling programme. How might AI tools change the daily work in this role, and how would you develop your skills?",
+      "followUpEn": "Can you give an example of work you completed with AI tools and the result?",
+      "textYue": "政府推出 AI 技能提升計劃。你覺得 AI 工具會點樣改變呢個職位嘅日常工作？你會點樣提升自己？",
+      "followUpYue": "有冇一個你用 AI 工具做嘢嘅例子？結果點樣？"
+    },
+    {
+      "type": "question",
+      "id": "ind_university_town",
+      "category": "industry",
+      "policyId": "nm_university_town",
+      "text": "如果公司計劃參與北部都會區大學城一帶的產學合作項目，你應徵的職位可以怎樣支援？",
+      "followUp": "你會先了解哪些資料，才提出建議？",
+      "textEn": "If your company planned an industry-university collaboration near the Northern Metropolis University Town, how could your target role support it?",
+      "followUpEn": "What information would you look into before making a recommendation?",
+      "textYue": "如果公司打算參與北部都會區大學城附近嘅產學合作項目，你應徵嘅職位可以點樣幫手？",
+      "followUpYue": "你會先了解邊啲資料，先至提出建議？"
+    },
+    {
+      "type": "question",
+      "id": "ind_youth_jobs",
+      "category": "industry",
+      "policyId": "youth_30k_jobs",
+      "text": "政府推出三萬青年職位及實習計劃。如果你得到其中一個實習機會，頭三個月你會怎樣證明自己的價值？",
+      "followUp": "你會用甚麼指標說明你的成果？",
+      "textEn": "The government has introduced a programme for 30,000 youth jobs and internships. If you received an internship, how would you demonstrate your value in the first three months?",
+      "followUpEn": "Which measures would you use to show your results?",
+      "textYue": "政府推出三萬青年職位同實習計劃。如果你攞到其中一個實習機會，頭三個月你會點樣證明自己嘅價值？",
+      "followUpYue": "你會用啲咩指標講清楚你嘅成果？"
+    }
+  ]
+}

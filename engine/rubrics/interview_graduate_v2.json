@@ -1,0 +1,49 @@
+{
+  "id": "interview_graduate_v2",
+  "title": "畢業生／初入職場面試評分 v2",
+  "wantsRewrite": false,
+  "dimensions": [
+    { "key": "relevance", "label": "職位相關性", "levels": {
+      "1": "An answerable question receives an example or proposed action unrelated to the target role, with no useful connection.",
+      "2": "Mentions a broadly related course, internship, volunteer or project example but the connection to the role's task is vague.",
+      "3": "Explains how a specific learning experience or proposed action addresses a relevant entry-level task.",
+      "4": "Connects the example or proposed action to a specific role requirement and explains how the skill transfers.",
+      "5": "Makes a precise, credible connection to the role's work, explains transfer and recognises a relevant limit or learning need."
+    } },
+    { "key": "ownership", "label": "個人責任與行動", "levels": {
+      "1": "Despite an opportunity to explain action, attributes everything to others or cannot describe a personal contribution.",
+      "2": "Identifies some participation but personal responsibility, action or proposed contribution remains unclear.",
+      "3": "Explains a concrete personal contribution and distinguishes it from team or supervisor work; situational answers state own proposed actions.",
+      "4": "Explains how own actions moved the task forward and when help was sought, with a clear boundary of responsibility.",
+      "5": "Shows purposeful initiative within an appropriate beginner scope, follows through and recognises shared credit and responsibility limits."
+    } },
+    { "key": "judgement", "label": "分析與判斷", "levels": {
+      "1": "Responds to a decision question with an unsupported or clearly unsuitable action, ignoring an obvious constraint.",
+      "2": "Suggests a plausible action but provides little reason or attention to available information and constraints.",
+      "3": "Uses relevant information to explain a sensible choice and recognises a practical constraint or need for advice.",
+      "4": "Compares plausible alternatives, explains a trade-off and describes how feedback or validation informs the choice.",
+      "5": "Weighs alternatives and risks carefully within the role's scope, tests assumptions and explains how new evidence would change the decision."
+    } },
+    { "key": "outcomes", "label": "結果、驗證與反思", "levels": {
+      "1": "When asked about results or validation, provides an unsupported success claim or no credible way to check the action.",
+      "2": "Mentions an outcome or intended effect but provides little basis to judge what changed or what was learned.",
+      "3": "Explains a meaningful quantitative or qualitative outcome, learning from failure, or a plausible situational validation method.",
+      "4": "Connects own action to observed change or failed-project learning; situational answers specify a practical check and response to findings.",
+      "5": "Evaluates the effect with credible observations, recognises attribution limits and explains an improvement; a proposed plan defines validation and adaptation without claiming a past result."
+    } },
+    { "key": "clarity", "label": "內容表達清晰度", "levels": {
+      "1": "The answer's meaning or key action cannot be followed because the content is contradictory or disorganised.",
+      "2": "Some useful content is understandable but key relationships between context, action and reasoning remain unclear.",
+      "3": "Presents an understandable point with enough context to follow the personal contribution or proposed plan.",
+      "4": "Organises relevant details so the action, reasoning and outcome or validation are easy to follow.",
+      "5": "Communicates a coherent, precise answer, prioritises useful details and explains necessary limitations without distracting content; no required STAR order or length."
+    } },
+    { "key": "industry", "label": "行業認知（選用）", "requiresMetric": "industryQuestions", "levels": {
+      "1": "Given an industry question, makes an unsupported or materially mistaken claim without connecting it to work.",
+      "2": "Names a trend but its practical effect on the target role is unclear.",
+      "3": "Explains a plausible industry change and a relevant implication for an entry-level role.",
+      "4": "Connects change to a specific business task and proposes a feasible preparation action while distinguishing facts from assumptions.",
+      "5": "Explains a credible business implication, a practical action and how to verify assumptions; evaluates understanding, never political agreement."
+    } }
+  ]
+}

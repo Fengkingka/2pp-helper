@@ -1,0 +1,13 @@
+{
+  "version": "2026-10-15-educational-v1",
+  "status": "illustrative_assumptions",
+  "note": "Preset business values are editable teaching assumptions from the team's proposal, not verified market benchmarks. Tax and MPF sources describe the limited employee/corporation assumptions only.",
+  "sources": [
+    {"id":"mpf","url":"https://www.mpfa.org.hk/en/mpf-system/mandatory-contributions/employees","checkedAt":"2026-10-15","scope":"Monthly employer contribution for covered salaried employees: 5%, capped at HK$1,500; other employment arrangements excluded."},
+    {"id":"tax","url":"https://www.ird.gov.hk/eng/tax/bus_pft.htm","checkedAt":"2026-10-15","scope":"Assumes a Hong Kong corporation eligible for two-tier rates. Accrual is simplified; payment timing is an editable assumption, not a tax due date."}
+  ],
+  "presets": [
+    {"id":"tech_saas","name":"科技／SaaS（教學假設）","nameEn":"Tech / SaaS (teaching assumptions)","capital":500000,"setupCost":25000,"monthlyRevenue":20000,"founderSalary":20000,"staffCount":0,"staffSalary":28000,"hireMonth":7,"hireCount":0,"hireSalary":35000,"rent":3000,"serverCost":1500,"marketing":3000,"otherCost":3000,"cogsRate":0.08,"growth":0.06,"growthDecay":0.9,"churn":0.02,"collectionDays":30,"paymentDays":30,"annualFees":8000,"price":400,"founderEmployee":true,"taxPaidMonth12":false},
+    {"id":"professional_services","name":"專業服務（教學假設）","nameEn":"Professional services (teaching assumptions)","capital":500000,"setupCost":15000,"monthlyRevenue":30000,"founderSalary":20000,"staffCount":0,"staffSalary":22000,"hireMonth":7,"hireCount":0,"hireSalary":22000,"rent":4500,"serverCost":500,"marketing":2400,"otherCost":3000,"cogsRate":0.05,"growth":0.04,"growthDecay":0.9,"churn":0.01,"collectionDays":45,"paymentDays":30,"annualFees":8000,"price":1000,"founderEmployee":true,"taxPaidMonth12":false}
+  ]
+}

@@ -1,0 +1,13 @@
+# Apache：不公開程式庫、測試和設定檔
+Options -Indexes
+RedirectMatch 404 ^/?(.*/)?(lib|includes|tests)(/|$)
+<FilesMatch "^\.">
+  Require all denied
+</FilesMatch>
+AddDefaultCharset UTF-8
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript application/json
+</IfModule>
+
+# PDF.js modules must be served as JavaScript.
+AddType application/javascript .mjs

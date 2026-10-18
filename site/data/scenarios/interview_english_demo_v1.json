@@ -1,0 +1,14 @@
+{
+  "id": "interview_english_demo_v1",
+  "title": "英文面試：示範題庫",
+  "mode": "voice",
+  "calculator": "none",
+  "rubric": "interview_v1",
+  "steps": [
+    { "type": "question", "id": "experience_project", "category": "cv", "text": "Tell me about a project or task you worked on.", "followUp": "What action did you take, and what was the outcome?" },
+    { "type": "question", "id": "experience_contribution", "category": "cv", "text": "What was your specific contribution to that work?", "followUp": "Which part did you personally own, and how did it help the team?" },
+    { "type": "question", "id": "behavior_conflict", "category": "behavioral", "text": "Describe a disagreement you helped resolve.", "followUp": "What did you say or do, and what changed afterwards?" },
+    { "type": "question", "id": "behavior_deadline", "category": "behavioral", "text": "Tell me about a time you had to meet a tight deadline.", "followUp": "How did you prioritize your work, and what was the result?" },
+    { "type": "question", "id": "situation_first_week", "category": "situational", "text": "What would you do if your first-week results were below expectations?", "followUp": "What would you do first, and how would you measure success?" }
+  ]
+}

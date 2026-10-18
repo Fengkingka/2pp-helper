@@ -1,0 +1,140 @@
+{
+  "id": "term_sheet_guidance_fund_v1",
+  "title": "Term Sheet War Room：政府引導基金（虛構示範）",
+  "mode": "exercise",
+  "calculator": "captable",
+  "rubric": "term_sheet_v1",
+  "investor": {
+    "label": "政府引導基金（虛構示範）",
+    "disclaimer": "條款為示範用的虛構內容，並非任何真實基金的條款。",
+    "investment": 2000000
+  },
+  "steps": [
+    {
+      "type": "proposal",
+      "id": "valuation_and_pool",
+      "investorLine": "我們是一個政府引導基金（虛構示範）。我們按投前估值 700 萬投資 100 萬，條件是你找到一位私人投資者，按相同條款配對投資另外 100 萬，合共 200 萬。期權池要在交易前設為 10%。",
+      "terms": [
+        {
+          "key": "preMoney",
+          "label": "投前估值",
+          "options": [
+            {"label": "接受 700 萬", "action": "accept", "value": 7000000},
+            {"label": "還價 900 萬", "action": "counter", "value": 9000000},
+            {"label": "拒絕", "action": "reject", "value": 0, "outcome": "investor_walks"}
+          ]
+        },
+        {
+          "key": "pool",
+          "label": "期權池",
+          "options": [
+            {"label": "接受投前 10%", "action": "accept", "value": "pre_0.10"},
+            {"label": "還價投後 10%", "action": "counter", "value": "post_0.10"},
+            {"label": "拒絕", "action": "reject", "value": "none", "outcome": "continue"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "proposal",
+      "id": "matching_and_preference",
+      "investorLine": "配對的私人投資者要在三個月內到位，否則我們的資金不會發放。清算優先權方面，我們要求 1 倍並可參與分配。",
+      "terms": [
+        {
+          "key": "coInvestment",
+          "label": "配對共同投資",
+          "options": [
+            {"label": "接受 1:1 配對，三個月內到位", "action": "accept", "value": "1to1_3m", "explain": "影響：你要在三個月內找到另一位投資者，交易才會完成；找不到的話，基金的 100 萬不會到位。"},
+            {"label": "還價：配對期限延長至六個月", "action": "counter", "value": "1to1_6m", "explain": "影響：你有較多時間找配對投資者，但資金較遲到位，期間要靠現有現金營運。"},
+            {"label": "拒絕", "action": "reject", "value": "none", "outcome": "investor_walks", "explain": "影響：配對是這個基金（虛構示範）的投資條件，拒絕等於放棄這筆投資。"}
+          ]
+        },
+        {
+          "key": "liqPref",
+          "label": "清算優先權",
+          "options": [
+            {"label": "接受 1x participating", "action": "accept", "value": "1x_participating"},
+            {"label": "還價 1x non-participating", "action": "counter", "value": "1x_non_participating"},
+            {"label": "拒絕", "action": "reject", "value": "none", "outcome": "investor_walks"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "proposal",
+      "id": "board_and_reporting",
+      "investorLine": "我們需要一個董事席位。另外，你們每季要提交財務報告，以及在香港聘用的員工人數和研發開支。",
+      "terms": [
+        {
+          "key": "boardSeats",
+          "label": "投資者董事席位",
+          "options": [
+            {"label": "接受 1 席", "action": "accept", "value": 1, "explain": "影響：基金在董事會有一票；只要創辦人仍佔多數，日常決定仍由你們主導。"},
+            {"label": "還價：只設觀察員（不投票）", "action": "counter", "value": 0, "explain": "影響：基金可以列席董事會但不能投票，創辦人保留全部董事席位。"},
+            {"label": "拒絕", "action": "reject", "value": 0, "outcome": "continue", "explain": "影響：基金不參與董事會，較難掌握公司情況，可能要求更詳細的報告。"}
+          ]
+        },
+        {
+          "key": "reporting",
+          "label": "報告責任",
+          "options": [
+            {"label": "接受每季報告", "action": "accept", "value": "quarterly", "explain": "影響：每季要整理財務、本地聘用和研發開支資料，會佔用創辦人和會計的時間。"},
+            {"label": "還價：改為每半年報告", "action": "counter", "value": "half_yearly", "explain": "影響：報告次數減半，但基金掌握資料較慢，可能要求在重大事件發生時額外通知。"},
+            {"label": "拒絕", "action": "reject", "value": "none", "outcome": "investor_walks", "explain": "影響：基金無法跟進資金用途，不會接受，交易很可能告吹。"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "proposal",
+      "id": "anti_dilution",
+      "investorLine": "反攤薄方面，我們採用 broad-based weighted average，即按下一輪的金額和價格加權調整換股價。",
+      "terms": [
+        {
+          "key": "antiDilution",
+          "label": "反攤薄條款",
+          "options": [
+            {
+              "label": "接受 broad-based weighted average",
+              "action": "accept",
+              "value": "broad_based",
+              "explain": "影響：換股價按新一輪的金額和價格加權調整，比 full ratchet 溫和，創辦人被攤薄得較少。數字見「下跌輪壓力測試」。"
+            },
+            {"label": "還價：不設反攤薄條款", "action": "counter", "value": "none", "explain": "影響：下一輪估值下跌時，基金和其他股東一樣被攤薄；基金可能會在其他條款上要求補償。"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "proposal",
+      "id": "pro_rata",
+      "investorLine": "我們希望在 A 輪按持股比例跟投，維持持股，但不會要求超額認購。",
+      "terms": [
+        {
+          "key": "proRata",
+          "label": "跟投權（pro-rata）",
+          "options": [
+            {"label": "接受按持股比例跟投（standard pro-rata）", "action": "accept", "value": "standard", "explain": "影響：種子輪投資者只可以認購足以維持現有持股的額度，A 輪新投資者有較多額度。"},
+            {"label": "還價：不設跟投權", "action": "counter", "value": "none", "explain": "影響：A 輪額度全部留給新投資者；種子輪投資者的持股會被攤薄。"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "proposal",
+      "id": "hk_commitment",
+      "investorLine": "最後，基金（虛構示範）的目標之一是支持本地創科發展。我們要求公司總部和研發團隊在投資後三年內留在香港。",
+      "terms": [
+        {
+          "key": "hkPresence",
+          "label": "留港承諾",
+          "options": [
+            {"label": "接受三年內總部和研發留港", "action": "accept", "value": "3y_hq_and_rnd", "explain": "影響：三年內不能把總部或研發團隊遷出香港；日後想在其他地方擴張，要先和基金商討。"},
+            {"label": "還價：研發留港，但容許在大灣區其他城市設銷售團隊", "action": "counter", "value": "3y_rnd_only", "explain": "影響：研發仍然要留在香港，但銷售和客戶支援可以在其他城市發展，擴張較有彈性。"},
+            {"label": "拒絕", "action": "reject", "value": "none", "outcome": "investor_walks", "explain": "影響：留港是這個基金（虛構示範）的核心投資條件，拒絕等於放棄這筆投資。"}
+          ]
+        }
+      ]
+    }
+  ]
+}

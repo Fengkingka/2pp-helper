@@ -1,0 +1,137 @@
+{
+  "id": "term_sheet_seed_v1",
+  "title": "Term Sheet War Room：種子輪",
+  "mode": "exercise",
+  "calculator": "captable",
+  "rubric": "term_sheet_v1",
+  "investor": {
+    "label": "天使／種子投資者",
+    "investment": 2000000
+  },
+  "steps": [
+    {
+      "type": "proposal",
+      "id": "valuation_and_pool",
+      "investorLine": "我們很看好你們的團隊。投前估值 600 萬，我們投資 200 萬。另外，交易前要把期權池擴大到 15%。",
+      "terms": [
+        {
+          "key": "preMoney",
+          "label": "投前估值",
+          "options": [
+            {"label": "接受 600 萬", "action": "accept", "value": 6000000},
+            {"label": "還價 800 萬", "action": "counter", "value": 8000000},
+            {"label": "拒絕", "action": "reject", "value": 0, "outcome": "investor_walks"}
+          ]
+        },
+        {
+          "key": "pool",
+          "label": "期權池",
+          "options": [
+            {"label": "接受投前 15%", "action": "accept", "value": "pre_0.15"},
+            {"label": "還價投後 10%", "action": "counter", "value": "post_0.10"},
+            {"label": "拒絕", "action": "reject", "value": "none", "outcome": "continue"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "proposal",
+      "id": "preference_and_board",
+      "investorLine": "為了保障我們，清算優先權要 2 倍並可參與分配。董事會方面，我們要兩個席位。",
+      "terms": [
+        {
+          "key": "liqPref",
+          "label": "清算優先權",
+          "options": [
+            {"label": "接受 2x participating", "action": "accept", "value": "2x_participating"},
+            {"label": "還價 1x non-participating", "action": "counter", "value": "1x_non_participating"},
+            {"label": "拒絕", "action": "reject", "value": "none", "outcome": "investor_walks"}
+          ]
+        },
+        {
+          "key": "boardSeats",
+          "label": "投資者董事席位",
+          "options": [
+            {"label": "接受 2 席", "action": "accept", "value": 2, "explain": "影響：投資者在董事會有兩票。如果董事會只有三席，創辦人會失去多數，重大決定要投資者同意。"},
+            {"label": "還價 1 席＋1 位獨立董事", "action": "counter", "value": 1, "explain": "影響：投資者和創辦人各有代表，再加一位雙方同意的獨立董事，任何一方都不能單獨控制董事會。"},
+            {"label": "拒絕", "action": "reject", "value": 0, "outcome": "continue", "explain": "影響：董事會全部由創辦人組成；投資者較難監察公司，可能會在其他條款上要求更多保障。"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "proposal",
+      "id": "anti_dilution",
+      "investorLine": "如果下一輪的估值比今次低，我們需要保障。我們要求 full ratchet 反攤薄條款：換股價直接調低到下一輪的價格。",
+      "terms": [
+        {
+          "key": "antiDilution",
+          "label": "反攤薄條款",
+          "options": [
+            {"label": "接受 full ratchet", "action": "accept", "value": "full_ratchet", "explain": "影響：下一輪只要比今次便宜，投資者的換股價就降到新價格，額外的股份由其他股東承擔。數字見「下跌輪壓力測試」。"},
+            {
+              "label": "還價 broad-based weighted average",
+              "action": "counter",
+              "value": "broad_based",
+              "explain": "影響：換股價按新一輪的金額和價格加權調整，比 full ratchet 溫和，創辦人被攤薄得較少。數字見「下跌輪壓力測試」。"
+            },
+            {"label": "拒絕（不設反攤薄條款）", "action": "reject", "value": "none", "outcome": "continue", "explain": "影響：下一輪估值下跌時，種子投資者和其他股東一樣被攤薄；投資者可能會在其他條款上要求補償。"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "proposal",
+      "id": "pro_rata",
+      "investorLine": "我們想長期支持你們。A 輪時，我們要有權按持股比例的兩倍跟投（super pro-rata），確保可以增持。",
+      "terms": [
+        {
+          "key": "proRata",
+          "label": "跟投權（pro-rata）",
+          "options": [
+            {"label": "接受兩倍跟投（super pro-rata）", "action": "accept", "value": "super_2x", "explain": "影響：種子投資者在 A 輪可認購的額度加倍，A 輪新投資者分到的額度減少；想取得較大持股的領投者可能因此卻步。"},
+            {"label": "還價：按持股比例跟投（standard pro-rata）", "action": "counter", "value": "standard", "explain": "影響：種子投資者只可以認購足以維持現有持股的額度，A 輪新投資者有較多額度。"},
+            {"label": "拒絕（不設跟投權）", "action": "reject", "value": "none", "outcome": "continue", "explain": "影響：A 輪額度全部留給新投資者；種子投資者的持股會被攤薄。"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "proposal",
+      "id": "founder_vesting",
+      "investorLine": "投資之後，我們要確保創辦團隊會留下來。你們的股份要重新按四年歸屬，第一年是 cliff，由交易日起計。",
+      "terms": [
+        {
+          "key": "founderVesting",
+          "label": "創辦人股份歸屬（vesting）",
+          "options": [
+            {
+              "label": "接受 4 年歸屬、1 年 cliff，由交易日起計",
+              "action": "accept",
+              "value": "4y_1y_cliff_from_close",
+              "explain": "影響：交易後一年內離開，你的股份全部未歸屬，可以被公司收回；滿一年時一次過歸屬一部分，之後逐月歸屬。"
+            },
+            {"label": "還價：創辦以來的時間計入歸屬", "action": "counter", "value": "4y_1y_cliff_with_credit", "explain": "影響：你創辦公司以來的時間計入歸屬，部分股份即時歸屬；如果提早離開，被收回的股份較少。"},
+            {"label": "拒絕任何歸屬安排", "action": "reject", "value": "none", "outcome": "investor_walks", "explain": "影響：投資者無法確保團隊會留下來，大多數機構投資者不會接受，交易很可能告吹。"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "proposal",
+      "id": "protective_provisions",
+      "investorLine": "最後，以下事情要先得到我們書面同意：發行新股、出售公司、借貸超過 50 萬、每年預算，以及聘請或解僱高層。",
+      "terms": [
+        {
+          "key": "protectiveProvisions",
+          "label": "否決權（protective provisions）",
+          "options": [
+            {"label": "接受全部否決權", "action": "accept", "value": "broad", "explain": "影響：連年度預算和聘請高層都要投資者同意，日常營運的決定可能被拖慢。"},
+            {"label": "還價：只保留發行新股、出售公司和更改股東權利", "action": "counter", "value": "standard", "explain": "影響：投資者只可以否決影響其股份權利的重大事項，預算和人事由董事會和管理層決定。"},
+            {"label": "拒絕任何否決權", "action": "reject", "value": "none", "outcome": "investor_walks", "explain": "影響：投資者沒有方法保障其股份權利，通常不會接受，交易很可能告吹。"}
+          ]
+        }
+      ]
+    }
+  ]
+}

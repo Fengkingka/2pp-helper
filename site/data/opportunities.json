@@ -1,0 +1,1357 @@
+{
+  "_note": "K 負責維護（第 2 版：2026-10-08 由團隊助手更新）。所有連結已在 verifiedAt 當日打開檢查；職位方向和實習連到 JobsDB 的即時搜尋結果，內容每天不同。配對欄位：majorTags（主修 ×3）、interestTags（興趣 ×2）、skills（技能 ×1）、certs（專業資格 +1；certAny 代表任何計劃考取或進行中的資格都相符）。kind：role、intern、scheme（政府就業及培訓計劃）、course（課程與考證）、event、contest。決賽前一天要重新打開所有連結。不要爬取求職網站。",
+  "items": [
+    {
+      "id": "scheme_youth_30k",
+      "kind": "scheme",
+      "title": "三萬青年職位及實習計劃",
+      "titleEn": "30,000 Youth Jobs and Internships Scheme",
+      "org": "香港特區政府（2026 施政報告第 286 段）",
+      "orgEn": "HKSAR Government (2026 Policy Address, para. 286)",
+      "meta": "兩年內提供三萬個青年職位及實習：1 萬個六個月或以上的全職職位（政府每月資助 6,000 元或不多於月薪三分之一）、逾 1 萬個創科及初創實習、1 萬個建造業畢業生培訓名額，以及金發局 1,000 個金融實習。政府會設一站式網頁，申請方法以官方公布為準。",
+      "metaEn": "Over two years: 10,000 full-time posts of six months or more (the Government pays HK$6,000 a month or up to one-third of the salary), over 10,000 I&T and start-up internships, 10,000 construction graduate training places and 1,000 FSDC finance internships. A one-stop website is planned; check official announcements for how to apply.",
+      "majorTags": [
+        "marketing",
+        "business",
+        "data",
+        "tech",
+        "finance",
+        "operations",
+        "content",
+        "brand",
+        "design",
+        "people",
+        "social",
+        "product",
+        "startup",
+        "retail",
+        "engineering"
+      ],
+      "interestTags": [],
+      "skills": [],
+      "certs": [],
+      "policyIds": [
+        "youth_30k_jobs"
+      ],
+      "url": "https://www.policyaddress.gov.hk/2026/tc/chapter7.html",
+      "source": "official",
+      "deadline": null,
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "id": "scheme_gbayes",
+      "kind": "scheme",
+      "title": "大灣區青年就業計劃",
+      "titleEn": "Greater Bay Area Youth Employment Scheme",
+      "org": "勞工處",
+      "orgEn": "Labour Department",
+      "meta": "2026 年計劃進行中。29 歲或以下、持副學位或以上學歷的香港居民，受聘到大灣區內地城市工作；學士學位持有人月薪不少於 18,000 元，政府按薪金資助企業 60%（每月上限 12,000 元，最長 18 個月）。",
+      "metaEn": "The 2026 round is under way. Hong Kong residents aged 29 or under with an associate degree or above work in Mainland GBA cities; degree holders earn at least HK$18,000 a month, and the Government pays employers 60% of the salary (up to HK$12,000 a month for 18 months).",
+      "majorTags": [
+        "business",
+        "finance",
+        "data",
+        "tech",
+        "marketing",
+        "operations",
+        "engineering"
+      ],
+      "interestTags": [
+        "finance",
+        "tech",
+        "startup",
+        "operations"
+      ],
+      "skills": [],
+      "certs": [],
+      "policyIds": [],
+      "url": "https://www1.jobs.gov.hk/0/tc/information/gbayes/",
+      "source": "official",
+      "deadline": null,
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "id": "scheme_yetp",
+      "kind": "scheme",
+      "title": "展翅青見計劃（YETP）",
+      "titleEn": "Youth Employment and Training Programme (YETP)",
+      "org": "勞工處",
+      "orgEn": "Labour Department",
+      "meta": "勞工處的青年就業培訓計劃，提供職前培訓、在職培訓和就業支援。年齡和學歷要求請看官方網頁。",
+      "metaEn": "The Labour Department's youth employment and training programme, with pre-employment training, on-the-job training and employment support. See the official website for age and education requirements.",
+      "majorTags": [
+        "marketing",
+        "business",
+        "data",
+        "tech",
+        "finance",
+        "operations",
+        "content",
+        "brand",
+        "design",
+        "people",
+        "social",
+        "product",
+        "startup",
+        "retail",
+        "engineering"
+      ],
+      "interestTags": [],
+      "skills": [],
+      "certs": [],
+      "policyIds": [],
+      "url": "https://www.yes.labour.gov.hk/",
+      "source": "official",
+      "deadline": null,
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "id": "scheme_ysip",
+      "kind": "scheme",
+      "title": "民青局青年初創實習計劃",
+      "titleEn": "HYAB Youth Start-up Internship Programme",
+      "org": "民政及青年事務局、數碼港、香港科技園",
+      "orgEn": "Home and Youth Affairs Bureau, Cyberport and HKSTP",
+      "meta": "18 至 30 歲的全日制專上學生到初創企業實習 3 至 6 個月，民青局每月資助最多 11,490 元；2027 年計劃詳情稍後公布。",
+      "metaEn": "Full-time post-secondary students aged 18–30 intern at start-ups for 3–6 months, with a monthly subsidy of up to HK$11,490. Details of the 2027 round will be announced later.",
+      "majorTags": [
+        "tech",
+        "data",
+        "design",
+        "marketing",
+        "business",
+        "product",
+        "startup"
+      ],
+      "interestTags": [
+        "startup",
+        "tech",
+        "product",
+        "marketing"
+      ],
+      "skills": [],
+      "certs": [],
+      "policyIds": [
+        "innotech_youth_internships"
+      ],
+      "url": "https://www.ydc.gov.hk/tc/programmes/ip/ip_ysip.html",
+      "source": "official",
+      "deadline": null,
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "id": "scheme_itc_internship",
+      "kind": "scheme",
+      "title": "創科實習計劃（STEM Internship Scheme）",
+      "titleEn": "STEM Internship Scheme",
+      "org": "創新科技署（創新及科技基金）",
+      "orgEn": "Innovation and Technology Commission (ITF)",
+      "meta": "指定本地大學全日制 STEM 課程的學生，到企業實習最少 28 日，實習津貼每月 11,790 元（2026 年 4 月 1 日起）。",
+      "metaEn": "Students on full-time STEM programmes at designated local universities intern for at least 28 days, with an allowance of HK$11,790 a month (from 1 April 2026).",
+      "majorTags": [
+        "tech",
+        "data",
+        "engineering"
+      ],
+      "interestTags": [
+        "tech",
+        "product",
+        "data"
+      ],
+      "skills": [
+        "Python 基礎",
+        "SQL"
+      ],
+      "certs": [],
+      "policyIds": [
+        "innotech_youth_internships"
+      ],
+      "url": "https://www.itf.gov.hk/tc/support-measures/stem-internship-scheme/index.html",
+      "source": "official",
+      "deadline": null,
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "id": "scheme_talent_foundry",
+      "kind": "scheme",
+      "title": "科技園 Talent Foundry（AI for All）",
+      "titleEn": "HKSTP Talent Foundry (AI for All)",
+      "org": "香港科技園公司",
+      "orgEn": "Hong Kong Science and Technology Parks",
+      "meta": "為大學生、應屆畢業生、初入職和轉行人士而設的 AI 課程、證書、學徒和招聘活動；施政報告提到每年約 500 個培訓機會。",
+      "metaEn": "AI classes, certifications, apprenticeships and recruitment events for students, recent graduates, early-career professionals and career switchers; the Policy Address mentions about 500 training places a year.",
+      "majorTags": [
+        "tech",
+        "data",
+        "engineering",
+        "design",
+        "business"
+      ],
+      "interestTags": [
+        "tech",
+        "product",
+        "data",
+        "startup"
+      ],
+      "skills": [
+        "Python 基礎"
+      ],
+      "certs": [],
+      "policyIds": [
+        "ai_upskilling"
+      ],
+      "url": "https://www.hkstp.org/talent/early-career-and-internship/talent-foundry",
+      "source": "official",
+      "deadline": null,
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "id": "scheme_fsdc_internship",
+      "kind": "scheme",
+      "title": "金融服務業青年實習計劃",
+      "titleEn": "Financial Services Youth Internship Scheme",
+      "org": "香港金融發展局（2026 施政報告第 286 段）",
+      "orgEn": "Financial Services Development Council (2026 Policy Address, para. 286)",
+      "meta": "金發局聯同業界推出的兩年計劃，提供 1,000 個金融服務業實習職位。申請詳情有待公布，連結是施政報告原文。",
+      "metaEn": "A two-year scheme run by the FSDC with the industry, offering 1,000 financial services internships. Application details are yet to be announced; the link goes to the Policy Address text.",
+      "majorTags": [
+        "finance",
+        "data"
+      ],
+      "interestTags": [
+        "finance"
+      ],
+      "skills": [
+        "Excel"
+      ],
+      "certs": [
+        "HKSI 證券及期貨從業員資格考試 卷一",
+        "CFA Program Level I"
+      ],
+      "policyIds": [
+        "fsdc_internships"
+      ],
+      "url": "https://www.policyaddress.gov.hk/2026/tc/chapter7.html",
+      "source": "official",
+      "deadline": null,
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "id": "scheme_construction_grad",
+      "kind": "scheme",
+      "title": "建造業畢業生在職培訓津貼",
+      "titleEn": "Construction graduate on-the-job training allowance",
+      "org": "建造業議會（2026 施政報告第 286 段）",
+      "orgEn": "Construction Industry Council (2026 Policy Address, para. 286)",
+      "meta": "2027 及 2028 年延續建造業專業畢業生在職培訓津貼，每人每月 5,000 元，共 1 萬個培訓名額。申請詳情以建造業議會公布為準。",
+      "metaEn": "The on-the-job training allowance for construction professional graduates continues in 2027 and 2028: HK$5,000 a month per graduate, 10,000 training places. Check the CIC for application details.",
+      "majorTags": [
+        "engineering",
+        "operations"
+      ],
+      "interestTags": [
+        "operations"
+      ],
+      "skills": [],
+      "certs": [],
+      "policyIds": [
+        "construction_graduate_training"
+      ],
+      "url": "https://www.policyaddress.gov.hk/2026/tc/chapter7.html",
+      "source": "official",
+      "deadline": null,
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "id": "scheme_erb_ai",
+      "kind": "scheme",
+      "title": "僱員再培訓局 AI 課程（將升格為技能提升局）",
+      "titleEn": "ERB AI courses (to become the Skills Upgrading Authority)",
+      "org": "僱員再培訓局",
+      "orgEn": "Employees Retraining Board",
+      "meta": "提供多項人工智能應用課程。2026 施政報告提出由升格後的技能提升局推行 18 個月的 AI 技能提升計劃和免費全民網上課程，預計惠及至少 4 萬名僱員（第 120 段）。",
+      "metaEn": "Offers many AI application courses. The 2026 Policy Address plans an 18-month AI upskilling programme and free online courses for all, run by the upgraded authority and expected to benefit at least 40,000 employees (para. 120).",
+      "majorTags": [
+        "marketing",
+        "business",
+        "data",
+        "tech",
+        "operations",
+        "content",
+        "people",
+        "social"
+      ],
+      "interestTags": [
+        "tech",
+        "data",
+        "operations",
+        "content"
+      ],
+      "skills": [
+        "Excel",
+        "Canva",
+        "Python 基礎"
+      ],
+      "certs": [],
+      "policyIds": [
+        "ai_upskilling"
+      ],
+      "url": "https://www.erb.org/",
+      "source": "official",
+      "deadline": null,
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "id": "scheme_cef",
+      "kind": "scheme",
+      "title": "持續進修基金（CEF）",
+      "titleEn": "Continuing Education Fund (CEF)",
+      "org": "在職家庭及學生資助事務處",
+      "orgEn": "Working Family and Student Financial Assistance Agency",
+      "meta": "18 歲或以上、符合居港要求的人士修讀「可獲發還款項課程」，每人最多可獲發還 25,000 元；報讀前先用官方課程搜尋器確認課程。適合準備考取專業資格的人。",
+      "metaEn": "People aged 18 or above who meet the residence requirement can be reimbursed up to HK$25,000 for CEF reimbursable courses; check the course in the official course search first. Useful if you are working towards a qualification.",
+      "majorTags": [
+        "marketing",
+        "business",
+        "data",
+        "tech",
+        "finance",
+        "operations",
+        "content",
+        "brand",
+        "design",
+        "people",
+        "social",
+        "product",
+        "startup",
+        "retail",
+        "engineering"
+      ],
+      "interestTags": [],
+      "skills": [],
+      "certs": [],
+      "policyIds": [],
+      "url": "https://www.wfsfaa.gov.hk/cef/",
+      "source": "official",
+      "deadline": null,
+      "verifiedAt": "2026-10-08",
+      "certAny": true
+    },
+    {
+      "id": "scheme_ccmf",
+      "kind": "scheme",
+      "title": "數碼港創意微型基金（CCMF）",
+      "titleEn": "Cyberport Creative Micro Fund (CCMF)",
+      "org": "數碼港",
+      "orgEn": "Cyberport",
+      "meta": "支持初創構思的 10 萬元資助，分三期發放，項目需在六個月內完成；設香港計劃、大灣區青年創業計劃和大學合作計劃，申請期以數碼港公布為準。",
+      "metaEn": "A HK$100,000 grant for early-stage digital tech ideas, paid in three instalments for a six-month project, with Hong Kong, GBA Young Entrepreneurship and university partnership streams. Check Cyberport for intake dates.",
+      "majorTags": [
+        "tech",
+        "business",
+        "design",
+        "data"
+      ],
+      "interestTags": [
+        "startup",
+        "tech",
+        "product"
+      ],
+      "skills": [],
+      "certs": [],
+      "policyIds": [
+        "innotech_rnd_target"
+      ],
+      "url": "https://cyberport.hk/cyberport_creative_micro_fund",
+      "source": "official",
+      "deadline": null,
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "id": "scheme_gov_internships",
+      "kind": "scheme",
+      "title": "政府實習計劃一覽（政府青少年網站）",
+      "titleEn": "Government internship schemes (Youth.gov.hk)",
+      "org": "政府青少年網站",
+      "orgEn": "Youth.gov.hk",
+      "meta": "列出政務職系實習、非華裔學生政府部門實習、民青局內地及聯合國實習、大灣區金融科技雙向實習等計劃。部分截止日期已過，請看各計劃最新公布。",
+      "metaEn": "Lists the Administrative Officer internships, government internships for non-Chinese students, HYAB Mainland and UN internships, the GBA fintech two-way internship and more. Some deadlines have passed; check each scheme.",
+      "majorTags": [
+        "marketing",
+        "business",
+        "data",
+        "tech",
+        "finance",
+        "operations",
+        "content",
+        "brand",
+        "design",
+        "people",
+        "social",
+        "product",
+        "startup",
+        "retail",
+        "engineering"
+      ],
+      "interestTags": [],
+      "skills": [],
+      "certs": [],
+      "policyIds": [
+        "youth_chapters"
+      ],
+      "url": "https://www.youth.gov.hk/tc/tags/internship",
+      "source": "official",
+      "deadline": null,
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "id": "scheme_csb_jobs",
+      "kind": "scheme",
+      "title": "政府職位空缺及公務員招聘",
+      "titleEn": "Government vacancies and civil service recruitment",
+      "org": "公務員事務局",
+      "orgEn": "Civil Service Bureau",
+      "meta": "政府職位空缺、申請程序和綜合招聘考試等公務員招聘資訊。",
+      "metaEn": "Government vacancies, application procedures and the Common Recruitment Examination.",
+      "majorTags": [
+        "marketing",
+        "business",
+        "data",
+        "tech",
+        "finance",
+        "operations",
+        "content",
+        "brand",
+        "design",
+        "people",
+        "social",
+        "product",
+        "startup",
+        "retail",
+        "engineering"
+      ],
+      "interestTags": [],
+      "skills": [],
+      "certs": [],
+      "policyIds": [],
+      "url": "https://www.csb.gov.hk/tc_chi/recruit/7.html",
+      "source": "official",
+      "deadline": null,
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "id": "role_marketing_analyst",
+      "kind": "role",
+      "title": "Marketing Analyst",
+      "titleEn": "Marketing Analyst",
+      "org": "JobsDB 職位搜尋",
+      "orgEn": "JobsDB job search",
+      "meta": "入門職位方向「市場數據分析」：連到 JobsDB 的即時搜尋結果。",
+      "metaEn": "Entry-level direction \"Marketing Analyst\": opens live JobsDB search results.",
+      "roleId": "marketing_analyst",
+      "majorTags": [
+        "marketing",
+        "data"
+      ],
+      "interestTags": [
+        "marketing",
+        "data"
+      ],
+      "skills": [
+        "Excel",
+        "SQL",
+        "Python 基礎"
+      ],
+      "certs": [
+        "Google Analytics Certification",
+        "Google Ads Search Certification",
+        "Microsoft Certified: Power BI Data Analyst Associate (PL-300)"
+      ],
+      "policyIds": [],
+      "url": "https://hk.jobsdb.com/marketing-analyst-jobs",
+      "source": "search",
+      "deadline": null,
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "id": "role_brand_executive",
+      "kind": "role",
+      "title": "Brand / Marketing Executive",
+      "titleEn": "Brand / Marketing Executive",
+      "org": "JobsDB 職位搜尋",
+      "orgEn": "JobsDB job search",
+      "meta": "入門職位方向「品牌與內容策劃」：連到 JobsDB 的即時搜尋結果。",
+      "metaEn": "Entry-level direction \"Brand / Marketing Executive\": opens live JobsDB search results.",
+      "roleId": "brand_executive",
+      "majorTags": [
+        "marketing",
+        "brand"
+      ],
+      "interestTags": [
+        "marketing",
+        "brand",
+        "content"
+      ],
+      "skills": [
+        "Canva"
+      ],
+      "certs": [
+        "Google Ads Display Certification",
+        "Meta Certified Digital Marketing Associate"
+      ],
+      "policyIds": [],
+      "url": "https://hk.jobsdb.com/brand-executive-jobs",
+      "source": "search",
+      "deadline": null,
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "id": "role_ecommerce_executive",
+      "kind": "role",
+      "title": "E-commerce Executive",
+      "titleEn": "E-commerce Executive",
+      "org": "JobsDB 職位搜尋",
+      "orgEn": "JobsDB job search",
+      "meta": "入門職位方向「電子商務營運」：連到 JobsDB 的即時搜尋結果。",
+      "metaEn": "Entry-level direction \"E-commerce Executive\": opens live JobsDB search results.",
+      "roleId": "ecommerce_executive",
+      "majorTags": [
+        "marketing",
+        "operations"
+      ],
+      "interestTags": [
+        "marketing",
+        "operations",
+        "data",
+        "retail"
+      ],
+      "skills": [
+        "Excel"
+      ],
+      "certs": [
+        "Google Analytics Certification",
+        "Google Ads Shopping Certification"
+      ],
+      "policyIds": [],
+      "url": "https://hk.jobsdb.com/ecommerce-executive-jobs",
+      "source": "search",
+      "deadline": null,
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "id": "role_junior_data_analyst",
+      "kind": "role",
+      "title": "Junior Data Analyst",
+      "titleEn": "Junior Data Analyst",
+      "org": "JobsDB 職位搜尋",
+      "orgEn": "JobsDB job search",
+      "meta": "入門職位方向「初級數據分析」：連到 JobsDB 的即時搜尋結果。",
+      "metaEn": "Entry-level direction \"Junior Data Analyst\": opens live JobsDB search results.",
+      "roleId": "junior_data_analyst",
+      "majorTags": [
+        "data",
+        "tech"
+      ],
+      "interestTags": [
+        "data",
+        "tech"
+      ],
+      "skills": [
+        "Python 基礎",
+        "SQL",
+        "Excel"
+      ],
+      "certs": [
+        "Microsoft Certified: Power BI Data Analyst Associate (PL-300)",
+        "Google Data Analytics Certificate"
+      ],
+      "policyIds": [],
+      "url": "https://hk.jobsdb.com/junior-data-analyst-jobs",
+      "source": "search",
+      "deadline": null,
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "id": "role_operations_associate",
+      "kind": "role",
+      "title": "Operations Associate",
+      "titleEn": "Operations Associate",
+      "org": "JobsDB 職位搜尋",
+      "orgEn": "JobsDB job search",
+      "meta": "入門職位方向「營運與項目統籌」：連到 JobsDB 的即時搜尋結果。",
+      "metaEn": "Entry-level direction \"Operations Associate\": opens live JobsDB search results.",
+      "roleId": "operations_associate",
+      "majorTags": [
+        "operations",
+        "business"
+      ],
+      "interestTags": [
+        "operations",
+        "business"
+      ],
+      "skills": [
+        "Excel"
+      ],
+      "certs": [
+        "PRINCE2 Foundation",
+        "Certified Associate in Project Management (CAPM)"
+      ],
+      "policyIds": [],
+      "url": "https://hk.jobsdb.com/operations-executive-jobs",
+      "source": "search",
+      "deadline": null,
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "id": "role_startup_generalist",
+      "kind": "role",
+      "title": "Startup Generalist",
+      "titleEn": "Startup Generalist",
+      "org": "JobsDB 職位搜尋",
+      "orgEn": "JobsDB job search",
+      "meta": "入門職位方向「初創企業多面手」：連到 JobsDB 的即時搜尋結果。",
+      "metaEn": "Entry-level direction \"Startup Generalist\": opens live JobsDB search results.",
+      "roleId": "startup_generalist",
+      "majorTags": [
+        "startup",
+        "business"
+      ],
+      "interestTags": [
+        "startup",
+        "business",
+        "marketing",
+        "operations"
+      ],
+      "skills": [],
+      "certs": [
+        "Google Project Management Certificate"
+      ],
+      "policyIds": [],
+      "url": "https://hk.jobsdb.com/startup-jobs",
+      "source": "search",
+      "deadline": null,
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "id": "role_finance_analyst_trainee",
+      "kind": "role",
+      "title": "Finance Analyst Trainee",
+      "titleEn": "Finance Analyst Trainee",
+      "org": "JobsDB 職位搜尋",
+      "orgEn": "JobsDB job search",
+      "meta": "入門職位方向「財務分析見習」：連到 JobsDB 的即時搜尋結果。",
+      "metaEn": "Entry-level direction \"Finance Analyst Trainee\": opens live JobsDB search results.",
+      "roleId": "finance_analyst_trainee",
+      "majorTags": [
+        "finance",
+        "data"
+      ],
+      "interestTags": [
+        "finance",
+        "data"
+      ],
+      "skills": [
+        "Excel"
+      ],
+      "certs": [
+        "HKSI 證券及期貨從業員資格考試 卷一",
+        "CFA Program Level I"
+      ],
+      "policyIds": [],
+      "url": "https://hk.jobsdb.com/financial-analyst-jobs",
+      "source": "search",
+      "deadline": null,
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "id": "role_supply_chain_coordinator",
+      "kind": "role",
+      "title": "Supply Chain Coordinator",
+      "titleEn": "Supply Chain Coordinator",
+      "org": "JobsDB 職位搜尋",
+      "orgEn": "JobsDB job search",
+      "meta": "入門職位方向「物流及供應鏈統籌」：連到 JobsDB 的即時搜尋結果。",
+      "metaEn": "Entry-level direction \"Supply Chain Coordinator\": opens live JobsDB search results.",
+      "roleId": "supply_chain_coordinator",
+      "majorTags": [
+        "operations",
+        "business"
+      ],
+      "interestTags": [
+        "operations",
+        "business"
+      ],
+      "skills": [
+        "Excel"
+      ],
+      "certs": [
+        "Certified in Logistics, Transportation and Distribution (CLTD)"
+      ],
+      "policyIds": [],
+      "url": "https://hk.jobsdb.com/supply-chain-coordinator-jobs",
+      "source": "search",
+      "deadline": null,
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "id": "role_ai_product_operations",
+      "kind": "role",
+      "title": "AI Product Operations Associate",
+      "titleEn": "AI Product Operations Associate",
+      "org": "JobsDB 職位搜尋",
+      "orgEn": "JobsDB job search",
+      "meta": "入門職位方向「AI 產品營運」：連到 JobsDB 的即時搜尋結果。",
+      "metaEn": "Entry-level direction \"AI Product Operations Associate\": opens live JobsDB search results.",
+      "roleId": "ai_product_operations",
+      "majorTags": [
+        "tech",
+        "product"
+      ],
+      "interestTags": [
+        "tech",
+        "product",
+        "data"
+      ],
+      "skills": [
+        "Python 基礎",
+        "SQL"
+      ],
+      "certs": [
+        "Microsoft Certified: Azure AI Fundamentals",
+        "AWS Certified AI Practitioner"
+      ],
+      "policyIds": [],
+      "url": "https://hk.jobsdb.com/ai-product-jobs",
+      "source": "search",
+      "deadline": null,
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "id": "role_ux_ui_designer",
+      "kind": "role",
+      "title": "Junior UX/UI Designer",
+      "titleEn": "Junior UX/UI Designer",
+      "org": "JobsDB 職位搜尋",
+      "orgEn": "JobsDB job search",
+      "meta": "入門職位方向「初級 UX／UI 設計」：連到 JobsDB 的即時搜尋結果。",
+      "metaEn": "Entry-level direction \"Junior UX/UI Designer\": opens live JobsDB search results.",
+      "roleId": "ux_ui_designer",
+      "majorTags": [
+        "design",
+        "tech"
+      ],
+      "interestTags": [
+        "design",
+        "tech",
+        "product"
+      ],
+      "skills": [],
+      "certs": [
+        "Google UX Design Certificate"
+      ],
+      "policyIds": [],
+      "url": "https://hk.jobsdb.com/ui-ux-designer-jobs",
+      "source": "search",
+      "deadline": null,
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "id": "role_talent_acquisition_assistant",
+      "kind": "role",
+      "title": "Talent Acquisition Assistant",
+      "titleEn": "Talent Acquisition Assistant",
+      "org": "JobsDB 職位搜尋",
+      "orgEn": "JobsDB job search",
+      "meta": "入門職位方向「人才招聘助理」：連到 JobsDB 的即時搜尋結果。",
+      "metaEn": "Entry-level direction \"Talent Acquisition Assistant\": opens live JobsDB search results.",
+      "roleId": "talent_acquisition_assistant",
+      "majorTags": [
+        "people",
+        "business"
+      ],
+      "interestTags": [
+        "people",
+        "business"
+      ],
+      "skills": [],
+      "certs": [],
+      "policyIds": [],
+      "url": "https://hk.jobsdb.com/talent-acquisition-jobs",
+      "source": "search",
+      "deadline": null,
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "id": "role_community_programme_officer",
+      "kind": "role",
+      "title": "Community Programme Officer",
+      "titleEn": "Community Programme Officer",
+      "org": "JobsDB 職位搜尋",
+      "orgEn": "JobsDB job search",
+      "meta": "入門職位方向「社區項目主任」：連到 JobsDB 的即時搜尋結果。",
+      "metaEn": "Entry-level direction \"Community Programme Officer\": opens live JobsDB search results.",
+      "roleId": "community_programme_officer",
+      "majorTags": [
+        "social",
+        "operations"
+      ],
+      "interestTags": [
+        "social",
+        "operations"
+      ],
+      "skills": [],
+      "certs": [],
+      "policyIds": [],
+      "url": "https://hk.jobsdb.com/programme-officer-jobs",
+      "source": "search",
+      "deadline": null,
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "id": "intern_data",
+      "kind": "intern",
+      "title": "數據分析實習（JobsDB 搜尋）",
+      "titleEn": "Data analyst internships (JobsDB search)",
+      "org": "JobsDB 職位搜尋",
+      "orgEn": "JobsDB job search",
+      "meta": "連到 JobsDB 的即時搜尋結果，職位由各公司刊登。",
+      "metaEn": "Opens live JobsDB search results; posts come from employers.",
+      "majorTags": [
+        "data",
+        "tech"
+      ],
+      "interestTags": [
+        "data"
+      ],
+      "skills": [
+        "Excel",
+        "SQL",
+        "Python 基礎"
+      ],
+      "certs": [],
+      "policyIds": [],
+      "url": "https://hk.jobsdb.com/data-analyst-intern-jobs",
+      "source": "search",
+      "deadline": null,
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "id": "intern_marketing",
+      "kind": "intern",
+      "title": "市場推廣實習（JobsDB 搜尋）",
+      "titleEn": "Marketing internships (JobsDB search)",
+      "org": "JobsDB 職位搜尋",
+      "orgEn": "JobsDB job search",
+      "meta": "連到 JobsDB 的即時搜尋結果，職位由各公司刊登。",
+      "metaEn": "Opens live JobsDB search results; posts come from employers.",
+      "majorTags": [
+        "marketing",
+        "content",
+        "brand"
+      ],
+      "interestTags": [
+        "marketing",
+        "brand",
+        "content"
+      ],
+      "skills": [
+        "Canva",
+        "Excel"
+      ],
+      "certs": [],
+      "policyIds": [],
+      "url": "https://hk.jobsdb.com/marketing-intern-jobs",
+      "source": "search",
+      "deadline": null,
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "id": "intern_finance",
+      "kind": "intern",
+      "title": "金融實習（JobsDB 搜尋）",
+      "titleEn": "Finance internships (JobsDB search)",
+      "org": "JobsDB 職位搜尋",
+      "orgEn": "JobsDB job search",
+      "meta": "連到 JobsDB 的即時搜尋結果，職位由各公司刊登。",
+      "metaEn": "Opens live JobsDB search results; posts come from employers.",
+      "majorTags": [
+        "finance"
+      ],
+      "interestTags": [
+        "finance"
+      ],
+      "skills": [
+        "Excel"
+      ],
+      "certs": [],
+      "policyIds": [],
+      "url": "https://hk.jobsdb.com/finance-intern-jobs",
+      "source": "search",
+      "deadline": null,
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "id": "intern_design",
+      "kind": "intern",
+      "title": "UX／UI 設計實習（JobsDB 搜尋）",
+      "titleEn": "UX/UI design internships (JobsDB search)",
+      "org": "JobsDB 職位搜尋",
+      "orgEn": "JobsDB job search",
+      "meta": "連到 JobsDB 的即時搜尋結果，職位由各公司刊登。",
+      "metaEn": "Opens live JobsDB search results; posts come from employers.",
+      "majorTags": [
+        "design",
+        "tech"
+      ],
+      "interestTags": [
+        "product",
+        "tech"
+      ],
+      "skills": [],
+      "certs": [],
+      "policyIds": [],
+      "url": "https://hk.jobsdb.com/ux-design-intern-jobs",
+      "source": "search",
+      "deadline": null,
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "id": "course_google_skillshop",
+      "kind": "course",
+      "title": "Google Skillshop（Google Analytics／Google Ads 認證）",
+      "titleEn": "Google Skillshop (Google Analytics / Google Ads certifications)",
+      "org": "Google",
+      "orgEn": "Google",
+      "meta": "Google 的免費網上培訓和認證，包括 Google Analytics 和 Google Ads。",
+      "metaEn": "Google's free online training and certifications, including Google Analytics and Google Ads.",
+      "majorTags": [
+        "marketing",
+        "data"
+      ],
+      "interestTags": [
+        "marketing",
+        "brand",
+        "data"
+      ],
+      "skills": [],
+      "certs": [
+        "Google Analytics Certification",
+        "Google Ads Search Certification",
+        "Google Ads Display Certification",
+        "Google Ads Shopping Certification"
+      ],
+      "policyIds": [],
+      "url": "https://skillshop.withgoogle.com/",
+      "source": "official",
+      "deadline": null,
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "id": "course_pl300",
+      "kind": "course",
+      "title": "Microsoft Certified: Power BI Data Analyst Associate（PL-300）",
+      "titleEn": "Microsoft Certified: Power BI Data Analyst Associate (PL-300)",
+      "org": "Microsoft",
+      "orgEn": "Microsoft",
+      "meta": "用 Power BI 做數據分析和報表的認證，考試編號 PL-300。",
+      "metaEn": "A certification for data analysis and reporting with Power BI; exam PL-300.",
+      "majorTags": [
+        "data",
+        "marketing",
+        "finance",
+        "business"
+      ],
+      "interestTags": [
+        "data"
+      ],
+      "skills": [
+        "Excel",
+        "SQL"
+      ],
+      "certs": [
+        "Microsoft Certified: Power BI Data Analyst Associate (PL-300)"
+      ],
+      "policyIds": [],
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/data-analyst-associate/",
+      "source": "official",
+      "deadline": null,
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "id": "course_google_data",
+      "kind": "course",
+      "title": "Google Data Analytics Certificate",
+      "titleEn": "Google Data Analytics Certificate",
+      "org": "Google（Coursera）",
+      "orgEn": "Google (Coursera)",
+      "meta": "入門數據分析證書，在 Coursera 上課。",
+      "metaEn": "An entry-level data analytics certificate taught on Coursera.",
+      "majorTags": [
+        "data",
+        "tech",
+        "marketing",
+        "business"
+      ],
+      "interestTags": [
+        "data"
+      ],
+      "skills": [
+        "Excel",
+        "SQL"
+      ],
+      "certs": [
+        "Google Data Analytics Certificate"
+      ],
+      "policyIds": [],
+      "url": "https://grow.google/certificates/data-analytics/",
+      "source": "official",
+      "deadline": null,
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "id": "course_google_ux",
+      "kind": "course",
+      "title": "Google UX Design Certificate",
+      "titleEn": "Google UX Design Certificate",
+      "org": "Google（Coursera）",
+      "orgEn": "Google (Coursera)",
+      "meta": "入門 UX 設計證書，包括用戶研究和原型製作。",
+      "metaEn": "An entry-level UX design certificate covering user research and prototyping.",
+      "majorTags": [
+        "design",
+        "tech"
+      ],
+      "interestTags": [
+        "product",
+        "tech"
+      ],
+      "skills": [],
+      "certs": [
+        "Google UX Design Certificate"
+      ],
+      "policyIds": [],
+      "url": "https://grow.google/certificates/ux-design/",
+      "source": "official",
+      "deadline": null,
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "id": "course_google_pm",
+      "kind": "course",
+      "title": "Google Project Management Certificate",
+      "titleEn": "Google Project Management Certificate",
+      "org": "Google（Coursera）",
+      "orgEn": "Google (Coursera)",
+      "meta": "入門項目管理證書。",
+      "metaEn": "An entry-level project management certificate.",
+      "majorTags": [
+        "business",
+        "operations"
+      ],
+      "interestTags": [
+        "operations",
+        "startup"
+      ],
+      "skills": [],
+      "certs": [
+        "Google Project Management Certificate"
+      ],
+      "policyIds": [],
+      "url": "https://grow.google/certificates/project-management/",
+      "source": "official",
+      "deadline": null,
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "id": "course_capm",
+      "kind": "course",
+      "title": "Certified Associate in Project Management（CAPM）",
+      "titleEn": "Certified Associate in Project Management (CAPM)",
+      "org": "PMI",
+      "orgEn": "Project Management Institute",
+      "meta": "項目管理入門認證，不需要工作經驗。",
+      "metaEn": "An entry-level project management certification; no experience required.",
+      "majorTags": [
+        "business",
+        "operations",
+        "engineering"
+      ],
+      "interestTags": [
+        "operations"
+      ],
+      "skills": [],
+      "certs": [
+        "Certified Associate in Project Management (CAPM)"
+      ],
+      "policyIds": [],
+      "url": "https://www.pmi.org/certifications/certified-associate-capm",
+      "source": "official",
+      "deadline": null,
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "id": "course_azure_ai",
+      "kind": "course",
+      "title": "Microsoft Certified: Azure AI Fundamentals",
+      "titleEn": "Microsoft Certified: Azure AI Fundamentals",
+      "org": "Microsoft",
+      "orgEn": "Microsoft",
+      "meta": "AI 基礎概念和 Azure AI 服務的入門認證（2026 年 4 月起考試編號為 AI-901）。",
+      "metaEn": "An entry-level certification on AI concepts and Azure AI services (exam AI-901 since April 2026).",
+      "majorTags": [
+        "tech",
+        "data"
+      ],
+      "interestTags": [
+        "tech",
+        "product"
+      ],
+      "skills": [],
+      "certs": [
+        "Microsoft Certified: Azure AI Fundamentals"
+      ],
+      "policyIds": [],
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/",
+      "source": "official",
+      "deadline": null,
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "id": "course_aws_ai",
+      "kind": "course",
+      "title": "AWS Certified AI Practitioner",
+      "titleEn": "AWS Certified AI Practitioner",
+      "org": "Amazon Web Services",
+      "orgEn": "Amazon Web Services",
+      "meta": "AI 和生成式 AI 應用的入門認證。",
+      "metaEn": "An entry-level certification on AI and generative AI use cases.",
+      "majorTags": [
+        "tech",
+        "data"
+      ],
+      "interestTags": [
+        "tech",
+        "product"
+      ],
+      "skills": [],
+      "certs": [
+        "AWS Certified AI Practitioner"
+      ],
+      "policyIds": [],
+      "url": "https://aws.amazon.com/certification/certified-ai-practitioner/",
+      "source": "official",
+      "deadline": null,
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "id": "course_hksi_le",
+      "kind": "course",
+      "title": "證券及期貨從業員資格考試（LE）",
+      "titleEn": "Licensing Examination for Securities and Futures Intermediaries (LE)",
+      "org": "香港證券及投資學會",
+      "orgEn": "Hong Kong Securities and Investment Institute",
+      "meta": "在香港從事受規管證券及期貨活動所需的資格考試。",
+      "metaEn": "The licensing examination for regulated securities and futures activities in Hong Kong.",
+      "majorTags": [
+        "finance"
+      ],
+      "interestTags": [
+        "finance"
+      ],
+      "skills": [],
+      "certs": [
+        "HKSI 證券及期貨從業員資格考試 卷一"
+      ],
+      "policyIds": [],
+      "url": "https://www.hksi.org/",
+      "source": "official",
+      "deadline": null,
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "id": "course_cfa",
+      "kind": "course",
+      "title": "CFA Program",
+      "titleEn": "CFA Program",
+      "org": "CFA Institute",
+      "orgEn": "CFA Institute",
+      "meta": "投資管理專業資格，共三級考試。",
+      "metaEn": "An investment management credential with three levels of exams.",
+      "majorTags": [
+        "finance"
+      ],
+      "interestTags": [
+        "finance"
+      ],
+      "skills": [],
+      "certs": [
+        "CFA Program Level I"
+      ],
+      "policyIds": [],
+      "url": "https://www.cfainstitute.org/programs/cfa-program",
+      "source": "official",
+      "deadline": null,
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "id": "course_cltd",
+      "kind": "course",
+      "title": "APICS CLTD（物流、運輸及分銷認證）",
+      "titleEn": "APICS CLTD (logistics, transportation and distribution)",
+      "org": "ASCM",
+      "orgEn": "ASCM",
+      "meta": "物流、運輸及分銷的專業認證。",
+      "metaEn": "A professional certification in logistics, transportation and distribution.",
+      "majorTags": [
+        "operations",
+        "business"
+      ],
+      "interestTags": [
+        "operations"
+      ],
+      "skills": [],
+      "certs": [
+        "Certified in Logistics, Transportation and Distribution (CLTD)"
+      ],
+      "policyIds": [],
+      "url": "https://www.ascm.org/learning-development/certifications-credentials/cltd/",
+      "source": "official",
+      "deadline": null,
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "id": "event_education_expo",
+      "kind": "event",
+      "title": "教育及職業博覽",
+      "titleEn": "Education and Careers Expo",
+      "org": "香港貿易發展局",
+      "orgEn": "HKTDC",
+      "meta": "每年約一月在香港會議展覽中心舉行的升學及就業展覽（2026 年為第 35 屆，1 月 22 日開幕；勞工處亦設攤位）。下屆日期以貿發局公布為準。",
+      "metaEn": "An annual study and careers fair at the HK Convention and Exhibition Centre, usually in January (the 35th edition opened on 22 January 2026, with a Labour Department booth). Check HKTDC for the next dates.",
+      "majorTags": [
+        "marketing",
+        "business",
+        "data",
+        "tech",
+        "finance",
+        "operations",
+        "content",
+        "brand",
+        "design",
+        "people",
+        "social",
+        "product",
+        "startup",
+        "retail",
+        "engineering"
+      ],
+      "interestTags": [],
+      "skills": [],
+      "certs": [],
+      "policyIds": [],
+      "url": "https://www.hktdc.com/event/hkeducationexpo/tc",
+      "source": "official",
+      "deadline": null,
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "id": "event_startmeuphk",
+      "kind": "event",
+      "title": "StartmeupHK 創業資源及活動",
+      "titleEn": "StartmeupHK start-up resources and events",
+      "org": "投資推廣署",
+      "orgEn": "Invest Hong Kong",
+      "meta": "政府的創業資源平台，列出孵化計劃、資助和活動；2026 年 11 月有「香港金融科技周 × StartmeupHK」活動。",
+      "metaEn": "The Government's start-up resource platform with incubation programmes, funding and events, including Hong Kong FinTech Week x StartmeupHK in November 2026.",
+      "majorTags": [
+        "business",
+        "tech",
+        "finance"
+      ],
+      "interestTags": [
+        "startup",
+        "tech",
+        "finance"
+      ],
+      "skills": [],
+      "certs": [],
+      "policyIds": [
+        "innotech_rnd_target"
+      ],
+      "url": "https://www.startmeup.hk/",
+      "source": "official",
+      "deadline": null,
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "id": "contest_hkicta",
+      "kind": "contest",
+      "title": "香港資訊及通訊科技獎：學生創新獎",
+      "titleEn": "Hong Kong ICT Awards: Student Innovation Award",
+      "org": "數字政策辦公室",
+      "orgEn": "Digital Policy Office",
+      "meta": "設高等教育組的學生科技創新獎項。2026 年度報名已於 7 月 20 日截止，可留意下一屆。",
+      "metaEn": "Student innovation awards with a higher education stream. Entries for 2026 closed on 20 July; watch for the next edition.",
+      "majorTags": [
+        "tech",
+        "data",
+        "design",
+        "engineering"
+      ],
+      "interestTags": [
+        "tech",
+        "product",
+        "startup"
+      ],
+      "skills": [
+        "Python 基礎"
+      ],
+      "certs": [],
+      "policyIds": [],
+      "url": "https://hkictawards.hk",
+      "source": "official",
+      "deadline": null,
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "id": "contest_hack4sdg",
+      "kind": "contest",
+      "title": "香港大專生成式 AI 黑客松（SDGs）",
+      "titleEn": "Hong Kong Inter-University GenAI Hackathon for the SDGs",
+      "org": "Hack4SDG",
+      "orgEn": "Hack4SDG",
+      "meta": "大專學生組隊用生成式 AI 回應聯合國可持續發展目標的比賽，設「未來工作與企業」等組別。",
+      "metaEn": "An inter-university contest where student teams use generative AI to tackle the UN Sustainable Development Goals, with tracks such as Future Work & Enterprises.",
+      "majorTags": [
+        "marketing",
+        "business",
+        "data",
+        "tech",
+        "finance",
+        "operations",
+        "content",
+        "brand",
+        "design",
+        "people",
+        "social",
+        "product",
+        "startup",
+        "retail",
+        "engineering"
+      ],
+      "interestTags": [
+        "tech",
+        "social",
+        "startup",
+        "product"
+      ],
+      "skills": [],
+      "certs": [],
+      "policyIds": [],
+      "url": "https://www.hack4sdg.com",
+      "source": "official",
+      "deadline": null,
+      "verifiedAt": "2026-10-08"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "b2b_procurement_v1",
+  "title": "B2B 電郵練習：向物流公司銷售排班系統",
+  "mode": "exercise",
+  "calculator": "none",
+  "rubric": "b2b_procurement_v1",
+  "steps": [
+    {
+      "type": "email",
+      "id": "budget_freeze",
+      "from": "Grace Lam，採購經理",
+      "subject": "Re: 排班系統建議書",
+      "body": "謝謝你的建議書。坦白說，今年的 IT 預算已經凍結，而且我們現在用 Excel 排班也沒有太大問題。你可以說明為甚麼我們需要在這個時候轉用新系統嗎？",
+      "inputs": [{"key": "reply", "label": "你的回覆", "kind": "text", "maxChars": 1200}]
+    },
+    {
+      "type": "email",
+      "id": "data_compliance",
+      "timeSkip": "兩星期後……",
+      "from": "Grace Lam，採購經理",
+      "subject": "Re: 排班系統建議書（資料保安）",
+      "body": "我們的法務部想知道員工資料存放在哪裡、誰可以存取，以及你們有沒有第三方保安認證。在收到答覆前，我們不能安排試用。",
+      "branches": {"check": "上一封回覆有沒有量化 ROI", "ifPass": "data_compliance", "ifFail": "data_compliance_skeptical"},
+      "inputs": [{"key": "reply", "label": "你的回覆", "kind": "text", "maxChars": 1200}]
+    },
+    {
+      "type": "email",
+      "id": "data_compliance_skeptical",
+      "timeSkip": "兩星期後……",
+      "from": "Grace Lam，採購經理",
+      "subject": "Re: 排班系統建議書（資料保安）",
+      "body": "我們內部討論過，仍然看不到轉用新系統的實際好處。另外法務部想知道員工資料存放在哪裡、誰可以存取，以及你們有沒有第三方保安認證。如果兩方面都沒有清楚答案，我們這一季不會再跟進。",
+      "inputs": [{"key": "reply", "label": "你的回覆", "kind": "text", "maxChars": 1200}]
+    },
+    {
+      "type": "email",
+      "id": "free_trial",
+      "timeSkip": "一星期後……",
+      "from": "Grace Lam，採購經理",
+      "subject": "Re: 排班系統建議書（試用安排）",
+      "body": "法務部看過你們的保安資料，暫時沒有其他問題。營運總監想先試用：你們可以免費試用三個月，並派同事幫我們把現有的 Excel 排班資料轉到系統嗎？試用效果好的話，我們再申請明年的預算。",
+      "branches": {"check": "上一封回覆有沒有具體回答資料存放位置、存取權限和保安認證", "ifPass": "free_trial", "ifFail": "free_trial_cautious"},
+      "inputs": [{"key": "reply", "label": "你的回覆", "kind": "text", "maxChars": 1200}]
+    },
+    {
+      "type": "email",
+      "id": "free_trial_cautious",
+      "timeSkip": "一星期後……",
+      "from": "Grace Lam，採購經理",
+      "subject": "Re: 排班系統建議書（試用安排）",
+      "body": "法務部仍然在等你們補充資料存放和存取權限的細節。另一方面，營運總監想先試用：你們可以免費試用三個月，並派同事幫我們把現有的 Excel 排班資料轉到系統嗎？保安資料未齊之前，試用只可以用虛構的員工資料。",
+      "inputs": [{"key": "reply", "label": "你的回覆", "kind": "text", "maxChars": 1200}]
+    },
+    {
+      "type": "email",
+      "id": "price_pressure",
+      "timeSkip": "一個月後……",
+      "from": "Grace Lam，採購經理",
+      "subject": "Re: 排班系統建議書（報價）",
+      "body": "試用期間，排班同事每星期少花了幾個小時，營運部想正式採用。不過管理層看過報價後，要求首年打八折，並改為按月付款、可以隨時取消。如果做不到，就要等明年的預算。",
+      "branches": {"check": "上一封回覆有沒有為試用訂下可以量度的成功標準和明確期限", "ifPass": "price_pressure", "ifFail": "price_pressure_competitor"},
+      "inputs": [{"key": "reply", "label": "你的回覆", "kind": "text", "maxChars": 1200}]
+    },
+    {
+      "type": "email",
+      "id": "price_pressure_competitor",
+      "timeSkip": "一個月後……",
+      "from": "Grace Lam，採購經理",
+      "subject": "Re: 排班系統建議書（報價）",
+      "body": "試用期間，同事對系統的評價不一，我們很難判斷究竟節省了多少時間。另外，另一間供應商願意給我們首年七折。如果你們不能在價錢上配合，我們會選擇對方。",
+      "inputs": [{"key": "reply", "label": "你的回覆", "kind": "text", "maxChars": 1200}]
+    }
+  ]
+}

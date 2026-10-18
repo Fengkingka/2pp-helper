@@ -1,0 +1,49 @@
+{
+  "id": "interview_experienced_v2",
+  "title": "已有工作經驗面試評分 v2",
+  "wantsRewrite": false,
+  "dimensions": [
+    { "key": "relevance", "label": "職位相關性", "levels": {
+      "1": "Given a role-focused question, presents unrelated work or proposed actions without a useful connection to the target role.",
+      "2": "Mentions related work but the link to the role's actual responsibilities or business need remains generic.",
+      "3": "Explains how a specific contribution or proposed action addresses a relevant responsibility of the target role.",
+      "4": "Connects experience or proposed action to the role's work and explains how it meets a specific stakeholder or business need.",
+      "5": "Demonstrates precise transfer to the target responsibilities, recognises important context differences and explains a credible adaptation."
+    } },
+    { "key": "ownership", "label": "個人責任與行動", "levels": {
+      "1": "Given an ownership question, provides no identifiable personal action or takes unsupported credit for others' work.",
+      "2": "Describes participation but independent responsibility, boundaries or follow-through remain vague.",
+      "3": "Explains independent responsibility and concrete own actions appropriate to the target role, distinguishing team contributions.",
+      "4": "Shows end-to-end follow-through within the role's scope, coordinates dependencies and explains accountability and escalation.",
+      "5": "Demonstrates deliberate ownership of a relevant responsibility, anticipates dependencies and adjusts actions while respecting shared credit and limits; management is not required."
+    } },
+    { "key": "judgement", "label": "分析與判斷", "levels": {
+      "1": "Given a decision question, proposes an unsupported or unsuitable action and disregards a material constraint.",
+      "2": "Provides a plausible decision but little reasoning about alternatives, risk or business constraints.",
+      "3": "Explains a defensible choice using relevant information and a realistic operational constraint.",
+      "4": "Compares alternatives and trade-offs, weighs stakeholder effects and explains risk mitigation or validation.",
+      "5": "Makes a proportionate decision under uncertainty, tests key assumptions, weighs consequential trade-offs and explains when evidence would change the choice; scope follows the target role, not assumed seniority."
+    } },
+    { "key": "outcomes", "label": "結果、驗證與反思", "levels": {
+      "1": "Given a results question, asserts success without a credible basis or offers no way to test the proposed effect.",
+      "2": "Mentions an observed or intended result but the business meaning, attribution or validation is unclear.",
+      "3": "Explains a meaningful quantitative or qualitative impact, a failed project's learning, or a feasible situational check relevant to the role.",
+      "4": "Connects own actions to stakeholder or business effects and recognises attribution limits; proposed plans specify validation and adaptation.",
+      "5": "Evaluates meaningful impact with credible evidence, explains constraints and consequential learning, and uses findings to improve work; a situational answer can earn this level through a credible validation and adaptation plan without a past achieved result."
+    } },
+    { "key": "clarity", "label": "內容表達清晰度", "levels": {
+      "1": "The answer's core responsibility or reasoning cannot be understood because content is contradictory or disorganised.",
+      "2": "Some content is clear but important links among responsibility, decision and effect are hard to follow.",
+      "3": "Communicates an understandable account with enough context to follow the relevant action and reasoning.",
+      "4": "Organises details so responsibility, trade-offs and impact or planned validation are easy to assess.",
+      "5": "Communicates a coherent, precise and proportionate account, makes limits explicit and prioritises details that support assessment; no required STAR order or length."
+    } },
+    { "key": "industry", "label": "行業認知（選用）", "requiresMetric": "industryQuestions", "levels": {
+      "1": "Given an industry question, makes an unsupported or materially mistaken claim without connecting it to business work.",
+      "2": "Names a trend but gives little credible explanation of its operational or stakeholder effect.",
+      "3": "Explains a plausible industry change and a relevant implication for the target role's responsibilities.",
+      "4": "Connects the change to business work, compares practical responses and identifies assumptions or risks to check.",
+      "5": "Explains a credible business implication and proportionate response with validation, trade-offs and uncertainty; evaluates understanding, never political agreement."
+    } }
+  ]
+}

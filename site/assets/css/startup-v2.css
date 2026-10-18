@@ -1,0 +1,49 @@
+/* 第 2 版：創業者路線新增的樣式（Black Swan 政策事件、Term Sheet 新條款、B2B 新回合）。只用 app.css 的設計 token。 */
+
+/* ---------- Black Swan：政策事件卡的「相關政策背景」 ---------- */
+.event-policy{display:flex;flex-direction:column;gap:6px;padding:12px 14px;border:1px solid var(--line-3);border-left:3px solid var(--text-4);border-radius:10px;background:var(--deep)}
+.event-policy-label{font-family:var(--mono);font-size:11px;letter-spacing:.04em;color:var(--text-4)}
+.event-policy-title{font-size:14px;font-weight:600;color:var(--text-2)}
+.event-policy .policy-source{font-size:12px}
+
+/* ---------- Term Sheet：投資者類型、條款說明 ---------- */
+.investor-pick .seg button{padding:8px 12px;line-height:1.45}
+.fund-note{margin:0;padding:10px 14px;border:1px solid var(--coral-line);border-radius:10px;background:var(--coral-soft);color:var(--coral-hover);font-size:13px;line-height:1.6}
+.term-explain{margin:0;padding:8px 12px;border-left:2px solid var(--line-3);font-size:13px;line-height:1.65;color:var(--text-3)}
+.legal-note{margin:0;padding-top:12px;border-top:1px solid var(--line);font-size:13px;color:var(--text-3)}
+
+/* ---------- Term Sheet：下跌輪壓力測試 ---------- */
+.stress-prices{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.stress-prices .stat .v{font-size:18px}
+.stress-table{width:100%;border-collapse:collapse;font-size:14px}
+.stress-table th,.stress-table td{padding:10px 8px;border-top:1px solid var(--line);text-align:left;vertical-align:top;font-weight:400}
+.stress-table thead th{border-top:0;padding-top:0;font-size:12px;color:var(--text-3)}
+.stress-table td,.stress-table thead th+th{text-align:right;white-space:nowrap}
+.stress-table td{font-size:15px;font-weight:700}
+.stress-cell{display:flex;flex-direction:column;gap:2px}
+.stress-name{display:flex;flex-wrap:wrap;align-items:center;gap:6px;color:var(--text-2)}
+.stress-table tr.is-chosen th,.stress-table tr.is-chosen td{background:var(--coral-soft)}
+.stress-table tr.is-chosen .stress-name{color:var(--text)}
+.stress-table tr.is-chosen td{color:var(--coral-hover)}
+
+/* ---------- Term Sheet：跟投權的影響 ---------- */
+.pr-row{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;padding:10px 0;border-top:1px solid var(--line)}
+.pr-row:first-child{border-top:0;padding-top:0}
+.pr-row .k{font-size:14px;color:var(--text-3)}
+.pr-row b{font-size:17px}
+
+@media (max-width:640px){
+  .stress-table th,.stress-table td{padding:9px 4px}
+  .pr-row{flex-wrap:wrap}
+}
+@media print{
+  .event-policy,.fund-note{background:#fff;color:#000;border-color:#ccc}
+}
+
+/* Black Swan 時間線：英文「Month 10」在手機上太長，只保留事件月份和目前月份的標籤 */
+@media (max-width:640px){
+  body[data-lang="en"] #months .stop:not(.event):not(.now) .when{visibility:hidden}
+  body[data-lang="en"] #months .when{white-space:nowrap}
+}
+#stress{display:flex;flex-direction:column;gap:14px}
+.stress-cell .mono{white-space:nowrap}

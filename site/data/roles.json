@@ -1,0 +1,462 @@
+{
+  "_note": "K 負責維護。職位卡片是 AI 助理唯一可以使用的職位資料，避免 AI 自行編造薪酬或證書。stations 依次是：補足技能、第一份工作、18 個月後。第 2 版：recommendedCerts 是建議證書（AI 只可以從中建議，名稱以頒發機構網站為準）；policyIds 連到 policy.json 的政策資料卡。",
+  "roles": [
+    {
+      "id": "marketing_analyst",
+      "name": "市場數據分析",
+      "nameEn": "Marketing Analyst",
+      "tags": [
+        "marketing",
+        "data"
+      ],
+      "matchLabels": [
+        "市場學",
+        "工商管理",
+        "數據分析",
+        "Excel",
+        "SQL",
+        "Python 基礎",
+        "統計學"
+      ],
+      "summary": "分析推廣和客戶數據，協助團隊決定內容、渠道和預算。",
+      "stations": [
+        "補足 SQL 和網站分析工具",
+        "Marketing Analyst",
+        "負責一條產品線的數據報告"
+      ],
+      "gap": "SQL、數據視覺化工具，以及一份能展示分析過程的作品。",
+      "plan": "用一個公開數據集完成一份分析作品；把過往的數據工作整理成作品集的一頁。",
+      "risk": "入門職位常要求 SQL，補足之前面試機會會較少。",
+      "recommendedCerts": [
+        {
+          "name": "Google Analytics Certification",
+          "issuer": "Google Skillshop"
+        },
+        {
+          "name": "Google Ads Search Certification",
+          "issuer": "Google Skillshop"
+        },
+        {
+          "name": "Microsoft Certified: Power BI Data Analyst Associate (PL-300)",
+          "issuer": "Microsoft"
+        }
+      ],
+      "policyIds": [
+        "four_centres_one_hub",
+        "youth_30k_jobs",
+        "ai_upskilling"
+      ]
+    },
+    {
+      "id": "brand_executive",
+      "name": "品牌與內容策劃",
+      "nameEn": "Brand / Marketing Executive",
+      "tags": [
+        "marketing",
+        "brand",
+        "content"
+      ],
+      "matchLabels": [
+        "市場學",
+        "傳理",
+        "品牌",
+        "內容創作",
+        "Canva",
+        "設計"
+      ],
+      "summary": "策劃品牌活動和社交媒體內容，協調設計、代理商和銷售團隊。",
+      "stations": [
+        "補足文案和社交媒體策略",
+        "Brand Executive",
+        "獨立負責一個品牌活動"
+      ],
+      "gap": "文案作品集，以及廣告投放的基本知識。",
+      "plan": "為一個虛構品牌做完整的社交媒體方案；參加一次校外品牌策劃比賽。",
+      "risk": "競爭者多，作品集的質素決定你能否突圍。",
+      "recommendedCerts": [
+        {
+          "name": "Google Ads Display Certification",
+          "issuer": "Google Skillshop"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta"
+        }
+      ],
+      "policyIds": [
+        "youth_30k_jobs"
+      ]
+    },
+    {
+      "id": "ecommerce_executive",
+      "name": "電子商務營運",
+      "nameEn": "E-commerce Executive",
+      "tags": [
+        "marketing",
+        "operations",
+        "data",
+        "retail"
+      ],
+      "matchLabels": [
+        "市場學",
+        "工商管理",
+        "數據分析",
+        "營運管理",
+        "Excel"
+      ],
+      "summary": "管理網店的產品頁、推廣和訂單流程，追蹤轉換率等營運指標。",
+      "stations": [
+        "補足電商平台營運",
+        "E-commerce Executive",
+        "管理一個網店的營運指標"
+      ],
+      "gap": "電商平台後台操作，以及轉換率分析。",
+      "plan": "完成一個電商平台的免費課程；分析一個網店的產品頁並提出改善建議。",
+      "risk": "部分職位要處理大量日常營運工作，節奏較急。",
+      "recommendedCerts": [
+        {
+          "name": "Google Analytics Certification",
+          "issuer": "Google Skillshop"
+        },
+        {
+          "name": "Google Ads Shopping Certification",
+          "issuer": "Google Skillshop"
+        }
+      ],
+      "policyIds": [
+        "four_centres_one_hub",
+        "youth_30k_jobs",
+        "ai_upskilling"
+      ]
+    },
+    {
+      "id": "junior_data_analyst",
+      "name": "初級數據分析",
+      "nameEn": "Junior Data Analyst",
+      "tags": [
+        "data",
+        "tech"
+      ],
+      "matchLabels": [
+        "數據分析",
+        "統計學",
+        "電腦科學",
+        "資訊科技",
+        "數學",
+        "Python 基礎",
+        "SQL",
+        "Excel"
+      ],
+      "summary": "整理和分析業務數據，製作報表和儀表板，回答管理層的問題。",
+      "stations": [
+        "補足 SQL、Python 和統計",
+        "Junior Data Analyst",
+        "獨立負責一個部門的報表"
+      ],
+      "gap": "SQL 和 Python 的實際項目經驗，以及基本統計概念。",
+      "plan": "每天練習 SQL 題目；用 Python 完成一個由數據清理到圖表的小項目。",
+      "risk": "技術要求較明確，沒有作品較難證明能力。",
+      "recommendedCerts": [
+        {
+          "name": "Microsoft Certified: Power BI Data Analyst Associate (PL-300)",
+          "issuer": "Microsoft"
+        },
+        {
+          "name": "Google Data Analytics Certificate",
+          "issuer": "Google（Coursera）"
+        }
+      ],
+      "policyIds": [
+        "innotech_youth_internships",
+        "ai_upskilling",
+        "talent_list"
+      ]
+    },
+    {
+      "id": "operations_associate",
+      "name": "營運與項目統籌",
+      "nameEn": "Operations Associate",
+      "tags": [
+        "operations",
+        "business"
+      ],
+      "matchLabels": [
+        "工商管理",
+        "營運管理",
+        "Excel",
+        "社會創新"
+      ],
+      "summary": "統籌跨部門項目和日常流程，改善效率，確保項目按時完成。",
+      "stations": [
+        "補足項目管理和流程分析",
+        "Operations Associate",
+        "負責一個跨部門項目"
+      ],
+      "gap": "項目管理方法，以及用數據說明流程改善的能力。",
+      "plan": "把一次籌辦活動的經驗寫成完整的項目案例；學習一套常用的項目管理工具。",
+      "risk": "工作成果不容易量化，面試時要準備具體例子。",
+      "recommendedCerts": [
+        {
+          "name": "PRINCE2 Foundation",
+          "issuer": "PeopleCert"
+        },
+        {
+          "name": "Certified Associate in Project Management (CAPM)",
+          "issuer": "PMI"
+        }
+      ],
+      "policyIds": [
+        "youth_30k_jobs",
+        "ai_upskilling"
+      ]
+    },
+    {
+      "id": "startup_generalist",
+      "name": "初創企業多面手",
+      "nameEn": "Startup Generalist",
+      "tags": [
+        "startup",
+        "business",
+        "marketing",
+        "operations"
+      ],
+      "matchLabels": [
+        "工商管理",
+        "科技產品",
+        "社會創新",
+        "營運管理",
+        "市場學"
+      ],
+      "summary": "在細規模團隊同時負責市場、營運和客戶工作，學習速度快。",
+      "stations": [
+        "補足產品和增長的基本功",
+        "初創企業營運或增長職位",
+        "負責一個產品功能的推出"
+      ],
+      "gap": "快速學習新工具的能力，以及處理不確定情況的經驗。",
+      "plan": "參加一次初創企業活動並認識三位創辦人；用一個週末做一個小型產品實驗。",
+      "risk": "工作範圍和穩定性較難預計，要考慮自己能否接受。",
+      "recommendedCerts": [
+        {
+          "name": "Google Project Management Certificate",
+          "issuer": "Google（Coursera）"
+        }
+      ],
+      "policyIds": [
+        "innotech_youth_internships",
+        "innotech_rnd_target",
+        "nm_university_town"
+      ]
+    },
+    {
+      "id": "finance_analyst_trainee",
+      "name": "財務分析見習",
+      "nameEn": "Finance Analyst Trainee",
+      "tags": [
+        "finance",
+        "data"
+      ],
+      "matchLabels": [
+        "會計",
+        "金融",
+        "經濟學",
+        "統計學",
+        "數學",
+        "Excel"
+      ],
+      "summary": "整理財務數據、製作預算和業績報告，協助團隊分析投資或營運決定。",
+      "stations": [
+        "補足財務模型和 Excel 進階功能",
+        "Finance Analyst Trainee",
+        "負責一個業務單位的每月財務報告"
+      ],
+      "gap": "財務模型、Excel 進階功能，以及解讀財務報表的能力。",
+      "plan": "用一間上市公司的年報建立一個簡單的財務模型；看一份專業考試的課程大綱，決定是否報考。",
+      "risk": "部分職位要求專業考試進度，入行初期工時可能較長。",
+      "recommendedCerts": [
+        {
+          "name": "HKSI 證券及期貨從業員資格考試 卷一",
+          "issuer": "香港證券及投資學會"
+        },
+        {
+          "name": "CFA Program Level I",
+          "issuer": "CFA Institute"
+        }
+      ],
+      "policyIds": [
+        "four_centres_one_hub",
+        "fsdc_internships"
+      ]
+    },
+    {
+      "id": "supply_chain_coordinator",
+      "name": "物流及供應鏈統籌",
+      "nameEn": "Supply Chain Coordinator",
+      "tags": [
+        "operations",
+        "business"
+      ],
+      "matchLabels": [
+        "工商管理",
+        "營運管理",
+        "經濟學",
+        "Excel"
+      ],
+      "summary": "跟進訂單、運輸和倉存，協調供應商和客戶，確保貨物準時送達。",
+      "stations": [
+        "補足供應鏈基本概念和數據工具",
+        "Supply Chain Coordinator",
+        "負責一個客戶或一條航線的物流安排"
+      ],
+      "gap": "供應鏈和國際貿易的基本知識，以及用 Excel 追蹤庫存和交貨的能力。",
+      "plan": "完成一個供應鏈管理入門課程；用公開數據比較兩條貨運路線的時間和成本。",
+      "risk": "工作節奏受貨期影響，有時要配合不同時區。",
+      "recommendedCerts": [
+        {
+          "name": "Certified in Logistics, Transportation and Distribution (CLTD)",
+          "issuer": "ASCM"
+        }
+      ],
+      "policyIds": [
+        "four_centres_one_hub"
+      ]
+    },
+    {
+      "id": "ai_product_operations",
+      "name": "AI 產品營運",
+      "nameEn": "AI Product Operations Associate",
+      "tags": [
+        "tech",
+        "product",
+        "data"
+      ],
+      "matchLabels": [
+        "電腦科學",
+        "資訊科技",
+        "科技產品",
+        "數據分析",
+        "Python 基礎",
+        "SQL"
+      ],
+      "summary": "協助 AI 產品的測試、數據質素檢查和用戶回饋整理，把問題清楚轉交工程團隊。",
+      "stations": [
+        "補足 AI 工具和數據處理",
+        "AI Product Operations Associate",
+        "負責一個 AI 功能的上線和監察"
+      ],
+      "gap": "常用 AI 工具的實際使用經驗、基本數據處理，以及寫清楚問題報告的能力。",
+      "plan": "用一個生成式 AI 工具完成一個小項目，並寫下它的限制；整理一份產品問題報告作為作品。",
+      "risk": "職位名稱和要求在不同公司差異很大，申請前要細看工作內容。",
+      "recommendedCerts": [
+        {
+          "name": "Microsoft Certified: Azure AI Fundamentals",
+          "issuer": "Microsoft"
+        },
+        {
+          "name": "AWS Certified AI Practitioner",
+          "issuer": "Amazon Web Services"
+        }
+      ],
+      "policyIds": [
+        "innotech_rnd_target",
+        "innotech_youth_internships",
+        "ai_upskilling",
+        "talent_list"
+      ]
+    },
+    {
+      "id": "ux_ui_designer",
+      "name": "初級 UX／UI 設計",
+      "nameEn": "Junior UX/UI Designer",
+      "tags": [
+        "design",
+        "tech",
+        "product"
+      ],
+      "matchLabels": [
+        "設計",
+        "心理學",
+        "科技產品",
+        "電腦科學",
+        "資訊科技"
+      ],
+      "summary": "研究用戶需要，設計網站或應用程式的流程和介面，並和工程師合作推出。",
+      "stations": [
+        "補足用戶研究和原型工具",
+        "Junior UX/UI Designer",
+        "負責一個產品功能的完整設計"
+      ],
+      "gap": "用戶研究方法、原型工具，以及能展示設計過程的作品集。",
+      "plan": "為一個常用的應用程式做一次可用性測試，並提出改善方案；把過程整理成作品集案例。",
+      "risk": "作品集是主要的篩選標準，沒有作品較難入行。",
+      "recommendedCerts": [
+        {
+          "name": "Google UX Design Certificate",
+          "issuer": "Google（Coursera）"
+        }
+      ],
+      "policyIds": [
+        "innotech_youth_internships",
+        "innotech_rnd_target"
+      ]
+    },
+    {
+      "id": "talent_acquisition_assistant",
+      "name": "人才招聘助理",
+      "nameEn": "Talent Acquisition Assistant",
+      "tags": [
+        "people",
+        "business"
+      ],
+      "matchLabels": [
+        "心理學",
+        "工商管理",
+        "社會科學"
+      ],
+      "summary": "協助篩選履歷、安排面試和跟進候選人，支援公司的招聘和新人入職。",
+      "stations": [
+        "補足招聘流程和面試技巧",
+        "Talent Acquisition Assistant",
+        "獨立負責一個部門的招聘"
+      ],
+      "gap": "招聘流程、僱傭法例的基本知識，以及與候選人溝通的經驗。",
+      "plan": "了解《僱傭條例》的基本內容；為一個職位寫一份清楚、不帶偏見的招聘廣告。",
+      "risk": "招聘旺季工作量大，需要同時跟進很多候選人。",
+      "recommendedCerts": [],
+      "policyIds": [
+        "talent_list",
+        "youth_30k_jobs"
+      ]
+    },
+    {
+      "id": "community_programme_officer",
+      "name": "社區項目主任",
+      "nameEn": "Community Programme Officer",
+      "tags": [
+        "social",
+        "operations"
+      ],
+      "matchLabels": [
+        "社會科學",
+        "社會創新",
+        "心理學",
+        "營運管理"
+      ],
+      "summary": "策劃和推行社區或青年項目，聯繫參加者和合作機構，並評估項目成效。",
+      "stations": [
+        "補足項目策劃和成效評估",
+        "Community Programme Officer",
+        "負責一個資助項目的推行和報告"
+      ],
+      "gap": "項目策劃、撰寫資助申請，以及用數據說明項目成效的能力。",
+      "plan": "參與一次社區活動的籌備並記錄成效；閱讀一份資助計劃的申請指引，寫一份模擬申請。",
+      "risk": "職位多數按項目資助聘用，合約期可能較短。",
+      "recommendedCerts": [],
+      "policyIds": [
+        "youth_chapters",
+        "nm_university_town",
+        "youth_30k_jobs"
+      ]
+    }
+  ]
+}

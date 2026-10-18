@@ -1,0 +1,24 @@
+{
+  "id": "hostile_vc_v1", "title": "Hostile VC：三人融資練習", "mode": "voice", "calculator": "none", "rubric": "hostile_vc_v1",
+  "panel": {
+    "rounds": 6, "maxClarifications": 1,
+    "roles": [
+      {"id":"numbers", "name":"Skeptical Numbers Guy", "nameYue":"數字派", "focus":"Test unit economics, burn and assumptions; accept explicit uncertainty and qualitative validation.", "focusYue":"追問單位經濟、現金消耗同假設；接受清楚講明未知數同質性驗證。"},
+      {"id":"vision", "name":"Visionary", "nameYue":"願景派", "focus":"Test customer need, competition, market sources and growth logic.", "focusYue":"追問客戶需要、競爭、市場資料來源同增長邏輯。"},
+      {"id":"legal", "name":"Legal Stickler", "nameYue":"風險派", "focus":"Test ownership, dependencies, data handling and risk mitigation. Ask practice questions, never give legal or financial advice.", "focusYue":"追問擁有權、依賴、資料處理同風險對策。只作練習，唔提供法律或財務建議。"}
+    ],
+    "clarifications": {
+      "numbers":{"speaker":"numbers","text":"What evidence or estimate supports that? If unknown, say how you will validate it.","textYue":"有咩證據或者估算支持？如果未知，你會點樣驗證？"},
+      "competition":{"speaker":"vision","text":"What alternatives do customers use today, including doing nothing?","textYue":"客戶而家用緊咩替代方案？唔採取行動都算一個選擇。"},
+      "source":{"speaker":"vision","text":"What is the source, date and scope of that market-size estimate?","textYue":"呢個市場規模估算嘅來源、日期同範圍係咩？"}
+    }
+  },
+  "steps": [
+    {"type":"question","id":"need","category":"situational","speaker":"vision","text":"Who has this problem, and what evidence shows they need your solution?","textYue":"邊啲客戶有呢個問題？有咩證據證明佢哋需要你嘅方案？"},
+    {"type":"question","id":"economics","category":"situational","speaker":"numbers","text":"Explain your acquisition cost and customer value assumptions. What remains unknown?","textYue":"講下獲客成本同客戶價值嘅假設。有邊啲仲未知？"},
+    {"type":"question","id":"risk","category":"situational","speaker":"legal","text":"What ownership, data or partner dependency could threaten delivery, and how would you check it?","textYue":"擁有權、資料處理或者合作伙伴依賴，有咩可能影響交付？你會點核實？"},
+    {"type":"question","id":"competition","category":"situational","speaker":"vision","text":"Why would customers choose you over existing alternatives? State the source of your market assumptions.","textYue":"客戶點解會揀你而唔揀現有替代方案？講埋市場假設嘅來源。"},
+    {"type":"question","id":"runway","category":"situational","speaker":"numbers","text":"How would your monthly burn and runway affect the next milestone? Explain assumptions or a validation plan.","textYue":"每月現金消耗同可撐月份，點樣影響下一個里程碑？講下假設或者驗證計劃。"},
+    {"type":"question","id":"mitigation","category":"situational","speaker":"legal","text":"Name the most important remaining risk, its owner and the next practical check before fundraising.","textYue":"融資前最重要嘅未解風險係咩？邊個負責？下一步會點樣核實？"}
+  ]
+}

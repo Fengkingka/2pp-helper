@@ -1,0 +1,30 @@
+{
+  "name": "training-platform-engine-starter",
+  "version": "0.4.0",
+  "description": "練習引擎、計算器、劇本和評分準則；打包後供 PHP 網站使用",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc -p .",
+    "build:site": "vitest run && node scripts/build-site.mjs",
+    "test:integration": "node ../site/tests/v32-dom.cjs",
+    "test:fitcheck": "php ../site/tests/fitcheck.php && node ../site/tests/fitcheck-dom.cjs"
+  },
+  "dependencies": {
+    "opencc-js": "^1.4.2",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.2",
+    "esbuild": "^0.28.2",
+    "jsdom": "^30.1.2",
+    "playwright": "^1.63.0",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.1"
+  },
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "^22.22.2 || ^24.15.0 || >=26.0.0"
+  }
+}

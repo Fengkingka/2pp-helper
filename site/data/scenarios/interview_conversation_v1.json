@@ -1,0 +1,14 @@
+{
+  "id": "interview_conversation_v1",
+  "title": "對話面試：基礎題庫與上下文追問",
+  "mode": "voice",
+  "calculator": "none",
+  "rubric": "interview_v1",
+  "steps": [
+    { "type": "question", "id": "experience_project", "category": "cv", "text": "Tell me about a project or task you worked on.", "textYue": "可唔可以講下一個你做過嘅項目或者任務？", "followUp": "What action did you take, and what was the outcome?", "followUpYue": "你當時做咗啲咩？最後有咩成果？" },
+    { "type": "question", "id": "experience_contribution", "category": "cv", "text": "What was your specific contribution to that work?", "textYue": "喺頭先嗰個項目入面，你自己具體負責邊一部分？", "followUp": "Which part did you personally own, and how did it help the team?", "followUpYue": "邊一部分係你自己做嘅？點樣幫到團隊？" },
+    { "type": "question", "id": "behavior_conflict", "category": "behavioral", "text": "Describe a disagreement you helped resolve.", "textYue": "講下一次你幫手解決團隊意見分歧嘅經歷。", "followUp": "What did you say or do, and what changed afterwards?", "followUpYue": "你當時講咗啲咩或者做咗啲咩？之後有咩改變？" },
+    { "type": "question", "id": "behavior_deadline", "category": "behavioral", "text": "Tell me about a time you had to meet a tight deadline.", "textYue": "講下一次你要喺好短時間內趕起工作嘅經歷。", "followUp": "How did you prioritize your work, and what was the result?", "followUpYue": "你點樣安排先後次序？最後趕唔趕得切？" },
+    { "type": "question", "id": "situation_first_week", "category": "situational", "text": "What would you do if your first-week results were below expectations?", "textYue": "如果返工第一個星期嘅表現未達預期，你會點樣處理？", "followUp": "What would you do first, and how would you measure success?", "followUpYue": "你會先做邊一步？點樣知道自己有改善？" }
+  ]
+}

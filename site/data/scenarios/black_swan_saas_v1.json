@@ -1,0 +1,218 @@
+{
+  "id": "black_swan_saas_v1",
+  "title": "Black Swan：B2B SaaS 的十二個月",
+  "mode": "exercise",
+  "calculator": "runway",
+  "seed": 20261011,
+  "rubric": "black_swan_v1",
+  "steps": [
+    {
+      "type": "event",
+      "id": "lead_engineer_quits",
+      "month": 4,
+      "card": {
+        "title": "首席工程師辭職，加入你的競爭對手",
+        "body": "她負責整個後端架構。新功能開發速度明顯下降，同一星期雲端供應商通知下月起加價。",
+        "effects": {"headcountDelta": -1, "devSpeedMultiplier": 0.6, "serverCostMultiplier": 1.3}
+      },
+      "inputs": [
+        {"key": "headcount", "label": "人手", "kind": "slider", "min": 2, "max": 10, "step": 1},
+        {"key": "marketing", "label": "每月市場預算", "kind": "slider", "min": 0, "max": 40000, "step": 1000},
+        {"key": "price", "label": "每位客戶月費", "kind": "number", "min": 100, "max": 2000, "step": 10},
+        {"key": "bridgeRound", "label": "過橋融資", "kind": "choice", "options": [{"label": "不融資", "value": 0}, {"label": "向天使投資者借 30 萬", "value": 300000}]},
+        {"key": "reasoning", "label": "用一兩句說明你的理由", "kind": "text", "maxChars": 200}
+      ]
+    },
+    {
+      "type": "event",
+      "id": "client_late_payment",
+      "month": 6,
+      "card": {"title": "最大客戶延遲付款 90 日", "body": "佔你收入三成的客戶表示內部審批延誤，未來三個月的帳單會延後支付。", "effects": {"cashDelta": -45000}},
+      "inputs": [
+        {"key": "marketing", "label": "每月市場預算", "kind": "slider", "min": 0, "max": 40000, "step": 1000},
+        {"key": "otherCost", "label": "其他營運支出", "kind": "slider", "min": 0, "max": 20000, "step": 500},
+        {"key": "bridgeRound", "label": "過橋融資", "kind": "choice", "options": [{"label": "不融資", "value": 0}, {"label": "申請 20 萬短期貸款", "value": 200000}]},
+        {"key": "reasoning", "label": "用一兩句說明你的理由", "kind": "text", "maxChars": 200}
+      ]
+    },
+    {
+      "type": "event",
+      "id": "competitor_price_cut",
+      "month": 9,
+      "card": {"title": "主要對手宣布減價 40%", "body": "幾位客戶開始詢問你會否跟隨減價，銷售團隊擔心續約率下降。", "effects": {"churnDelta": 0.03}},
+      "inputs": [
+        {"key": "price", "label": "每位客戶月費", "kind": "number", "min": 100, "max": 2000, "step": 10},
+        {"key": "marketing", "label": "每月市場預算", "kind": "slider", "min": 0, "max": 40000, "step": 1000},
+        {"key": "reasoning", "label": "用一兩句說明你的理由", "kind": "text", "maxChars": 200}
+      ]
+    },
+    {
+      "type": "event",
+      "id": "cloud_outage",
+      "month": 6,
+      "card": {"title": "系統故障 48 小時", "body": "資料庫升級出錯，所有客戶兩日無法登入，需要賠償服務費並加強監控。", "effects": {"churnDelta": 0.02, "cashDelta": -10000}},
+      "inputs": [
+        {"key": "serverCost", "label": "每月伺服器及監控費用", "kind": "slider", "min": 5000, "max": 30000, "step": 500},
+        {"key": "marketing", "label": "每月市場預算", "kind": "slider", "min": 0, "max": 40000, "step": 1000},
+        {"key": "reasoning", "label": "用一兩句說明你的理由", "kind": "text", "maxChars": 200}
+      ]
+    },
+    {
+      "type": "event",
+      "id": "privacy_rule_change",
+      "month": 9,
+      "card": {"title": "大客戶要求新的資料保安認證", "body": "兩個潛在企業客戶要求你在三個月內完成第三方保安審計，否則不會簽約。", "effects": {"cashDelta": -80000}},
+      "inputs": [
+        {"key": "headcount", "label": "人手", "kind": "slider", "min": 2, "max": 10, "step": 1},
+        {"key": "marketing", "label": "每月市場預算", "kind": "slider", "min": 0, "max": 40000, "step": 1000},
+        {"key": "reasoning", "label": "用一兩句說明你的理由", "kind": "text", "maxChars": 200}
+      ]
+    },
+    {
+      "type": "event",
+      "id": "viral_demand_spike",
+      "month": 3,
+      "card": {
+        "title": "客戶分享片段爆紅，試用申請急增",
+        "body": "一位客戶在社交媒體分享使用心得，一星期內多了三百個試用申請。收入開始上升，但伺服器負載大增，客戶支援也應付不來。",
+        "effects": {"revenueMultiplier": 1.15, "serverCostMultiplier": 1.6}
+      },
+      "inputs": [
+        {"key": "serverCost", "label": "每月伺服器及監控費用", "kind": "slider", "min": 5000, "max": 30000, "step": 500},
+        {"key": "headcount", "label": "人手", "kind": "slider", "min": 2, "max": 10, "step": 1},
+        {"key": "price", "label": "每位客戶月費", "kind": "number", "min": 100, "max": 2000, "step": 10},
+        {"key": "reasoning", "label": "用一兩句說明你的理由", "kind": "text", "maxChars": 200}
+      ]
+    },
+    {
+      "type": "event",
+      "id": "enterprise_custom_deal",
+      "month": 6,
+      "card": {
+        "title": "大企業願意簽年約，但要求先做定製功能",
+        "body": "合約會令每月收入增加約兩成，但三項定製功能要佔用工程團隊兩個月，原定的產品路線圖要延後。上線培訓和資料轉移要先付 2 萬元外判費用。",
+        "effects": {"revenueMultiplier": 1.2, "devSpeedMultiplier": 0.8, "cashDelta": -20000}
+      },
+      "inputs": [
+        {"key": "headcount", "label": "人手", "kind": "slider", "min": 2, "max": 10, "step": 1},
+        {"key": "marketing", "label": "每月市場預算", "kind": "slider", "min": 0, "max": 40000, "step": 1000},
+        {"key": "bridgeRound", "label": "過橋融資", "kind": "choice", "options": [{"label": "不融資", "value": 0}, {"label": "申請 20 萬短期貸款", "value": 200000}]},
+        {"key": "reasoning", "label": "用一兩句說明你的理由", "kind": "text", "maxChars": 200}
+      ]
+    },
+    {
+      "type": "event",
+      "id": "cofounder_leave",
+      "month": 4,
+      "card": {"title": "聯合創辦人家人患病，要停工兩個月", "body": "負責產品和銷售的聯合創辦人要照顧家人，未來兩個月只能處理最緊急的事。開發和跟進客戶的進度都會放慢。", "effects": {"devSpeedMultiplier": 0.7}},
+      "inputs": [
+        {"key": "headcount", "label": "人手", "kind": "slider", "min": 2, "max": 10, "step": 1},
+        {"key": "avgSalary", "label": "平均月薪", "kind": "slider", "min": 12000, "max": 40000, "step": 500},
+        {"key": "marketing", "label": "每月市場預算", "kind": "slider", "min": 0, "max": 40000, "step": 1000},
+        {"key": "reasoning", "label": "用一兩句說明你的理由", "kind": "text", "maxChars": 200}
+      ]
+    },
+    {
+      "type": "event",
+      "id": "phishing_incident",
+      "month": 6,
+      "card": {"title": "同事誤中釣魚電郵，部分客戶資料可能外洩", "body": "一位同事在仿冒的登入頁面輸入了管理員密碼。你要聘請顧問調查、通知受影響的客戶，已有客戶開始考慮轉用其他系統。", "effects": {"cashDelta": -60000, "churnDelta": 0.015}},
+      "inputs": [
+        {"key": "serverCost", "label": "每月伺服器及監控費用", "kind": "slider", "min": 5000, "max": 30000, "step": 500},
+        {"key": "marketing", "label": "每月市場預算", "kind": "slider", "min": 0, "max": 40000, "step": 1000},
+        {"key": "price", "label": "每位客戶月費", "kind": "number", "min": 100, "max": 2000, "step": 10},
+        {"key": "reasoning", "label": "用一兩句說明你的理由", "kind": "text", "maxChars": 200}
+      ]
+    },
+    {
+      "type": "event",
+      "id": "office_lease_ends",
+      "month": 3,
+      "card": {"title": "業主不續租，兩個月內要搬寫字樓", "body": "共享辦公室的業主收回單位。搬遷、按金和基本裝修要一次過付 4 萬元。你可以找月租較高但更方便的新地方，也可以改為部分時間在家工作。", "effects": {"cashDelta": -40000}},
+      "inputs": [
+        {"key": "otherCost", "label": "其他營運支出", "kind": "slider", "min": 0, "max": 20000, "step": 500},
+        {"key": "headcount", "label": "人手", "kind": "slider", "min": 2, "max": 10, "step": 1},
+        {"key": "marketing", "label": "每月市場預算", "kind": "slider", "min": 0, "max": 40000, "step": 1000},
+        {"key": "reasoning", "label": "用一兩句說明你的理由", "kind": "text", "maxChars": 200}
+      ]
+    },
+    {
+      "type": "event",
+      "id": "big_tech_free_feature",
+      "month": 9,
+      "card": {
+        "title": "大型科技公司在辦公套件加入免費 AI 功能",
+        "body": "新功能與你產品的核心功能部分重疊，而且免費。小客戶開始取消訂閱，大客戶則問你的產品有甚麼對方做不到。",
+        "effects": {"churnDelta": 0.025, "revenueMultiplier": 0.95}
+      },
+      "inputs": [
+        {"key": "price", "label": "每位客戶月費", "kind": "number", "min": 100, "max": 2000, "step": 10},
+        {"key": "marketing", "label": "每月市場預算", "kind": "slider", "min": 0, "max": 40000, "step": 1000},
+        {"key": "headcount", "label": "人手", "kind": "slider", "min": 2, "max": 10, "step": 1},
+        {"key": "reasoning", "label": "用一兩句說明你的理由", "kind": "text", "maxChars": 200}
+      ]
+    },
+    {
+      "type": "event",
+      "id": "key_customer_acquired",
+      "month": 9,
+      "card": {"title": "第二大客戶被收購，新母公司改用自家系統", "body": "這個客戶佔你收入約一成半，合約到期後不會續約。銷售團隊估計要三個月才能找到同等規模的新客戶。", "effects": {"revenueMultiplier": 0.85}},
+      "inputs": [
+        {"key": "marketing", "label": "每月市場預算", "kind": "slider", "min": 0, "max": 40000, "step": 1000},
+        {"key": "headcount", "label": "人手", "kind": "slider", "min": 2, "max": 10, "step": 1},
+        {"key": "bridgeRound", "label": "過橋融資", "kind": "choice", "options": [{"label": "不融資", "value": 0}, {"label": "向天使投資者借 30 萬", "value": 300000}]},
+        {"key": "reasoning", "label": "用一兩句說明你的理由", "kind": "text", "maxChars": 200}
+      ]
+    },
+    {
+      "type": "event",
+      "id": "nm_partner_enquiries",
+      "month": 6,
+      "card": {
+        "title": "大學城合作夥伴的查詢增加",
+        "body": "（虛構情景）你在一個以北部都會區大學城為主題的產學交流會上介紹產品，之後收到十多個院校和科技公司的查詢。要把查詢變成客戶，需要增加市場推廣和客戶支援；其中一個試點已經上線，伺服器用量隨之上升。",
+        "effects": {"revenueMultiplier": 1.05, "serverCostMultiplier": 1.15}
+      },
+      "policyId": "nm_university_town",
+      "inputs": [
+        {"key": "marketing", "label": "每月市場預算", "kind": "slider", "min": 0, "max": 40000, "step": 1000},
+        {"key": "headcount", "label": "人手", "kind": "slider", "min": 2, "max": 10, "step": 1},
+        {"key": "serverCost", "label": "每月伺服器及監控費用", "kind": "slider", "min": 5000, "max": 30000, "step": 500},
+        {"key": "reasoning", "label": "用一兩句說明你的理由", "kind": "text", "maxChars": 200}
+      ]
+    },
+    {
+      "type": "event",
+      "id": "rnd_grant_approved",
+      "month": 6,
+      "card": {
+        "title": "研發資助獲批，但附帶條件",
+        "body": "（虛構情景）你申請的一項研發資助獲批，一次過撥款 15 萬元，條件是增聘一位研發人員，並每季提交進度報告。準備報告和審核暫時佔用了工程團隊的時間，直至新同事上任。",
+        "effects": {"cashDelta": 150000, "devSpeedMultiplier": 0.9}
+      },
+      "policyId": "innotech_rnd_target",
+      "inputs": [
+        {"key": "headcount", "label": "人手", "kind": "slider", "min": 2, "max": 10, "step": 1},
+        {"key": "avgSalary", "label": "平均月薪", "kind": "slider", "min": 12000, "max": 40000, "step": 500},
+        {"key": "marketing", "label": "每月市場預算", "kind": "slider", "min": 0, "max": 40000, "step": 1000},
+        {"key": "reasoning", "label": "用一兩句說明你的理由", "kind": "text", "maxChars": 200}
+      ]
+    },
+    {
+      "type": "event",
+      "id": "interns_join",
+      "month": 3,
+      "card": {
+        "title": "兩位創科實習生加入團隊",
+        "body": "（虛構情景）你透過一個實習配對計劃，錄用了兩位大學生做三個月實習，負責客戶支援和數據整理。實習津貼合共 4 萬元由公司一次過支付；客戶的問題回覆得更快，流失率稍為下降。實習結束後，你可以考慮把其中一位轉為全職。",
+        "effects": {"cashDelta": -40000, "churnDelta": -0.005}
+      },
+      "policyId": "innotech_youth_internships",
+      "inputs": [
+        {"key": "headcount", "label": "人手", "kind": "slider", "min": 2, "max": 10, "step": 1},
+        {"key": "marketing", "label": "每月市場預算", "kind": "slider", "min": 0, "max": 40000, "step": 1000},
+        {"key": "reasoning", "label": "用一兩句說明你的理由", "kind": "text", "maxChars": 200}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,395 @@
+{
+  "_note": "K 負責維護（第 2 版）。政策資料卡是 AI 和頁面唯一可以引用的政策內容。summary 用自己的話寫，不評價政策。現時內容按新聞報道整理（source.report），verifiedBy／verifiedAt 為 null 代表草稿：決賽前要對照 officialUrl 的官方全文逐張核實，填上 section（章節或段落）、verifiedBy 和 verifiedAt（YYYY-MM-DD）。超過 60 日未核實的卡片，網站會提示重新核實。",
+  "areas": {
+    "planning": [
+      "規劃總覽",
+      "Plan overview"
+    ],
+    "finance": [
+      "金融",
+      "Finance"
+    ],
+    "trade": [
+      "貿易",
+      "Trade"
+    ],
+    "shipping": [
+      "航運",
+      "Shipping"
+    ],
+    "aviation": [
+      "航空",
+      "Aviation"
+    ],
+    "innotech": [
+      "創新科技",
+      "Innovation & technology"
+    ],
+    "talent": [
+      "人才",
+      "Talent"
+    ],
+    "youth": [
+      "青年",
+      "Youth"
+    ],
+    "northern_metropolis": [
+      "北部都會區",
+      "Northern Metropolis"
+    ],
+    "gba": [
+      "大灣區",
+      "Greater Bay Area"
+    ]
+  },
+  "cards": [
+    {
+      "id": "fyp_overview",
+      "title": "香港第一個五年規劃",
+      "titleEn": "Hong Kong's First Five-Year Plan",
+      "area": "planning",
+      "summary": "特區政府在 2026 年 9 月 16 日發佈首個五年規劃，與國家「十五五」規劃同步。全文 7 篇 28 章，設五大核心目標和 105 項量化指標。",
+      "summaryEn": "Published on 16 September 2026 and aligned with China's 15th Five-Year Plan, the plan has 7 parts and 28 chapters, five core goals and 105 quantified indicators.",
+      "source": {
+        "doc": "香港特區第一個五年規劃（2026–2030）",
+        "docEn": "Hong Kong's First Five-Year Plan (2026–2030)",
+        "section": null,
+        "report": "鉅亨網：香港發佈首份五年發展規劃（2026 年 9 月）",
+        "url": "https://hao.cnyes.com/post/268965"
+      },
+      "officialUrl": "https://www.hk5yplan.gov.hk",
+      "roleIds": [],
+      "tags": [
+        "planning"
+      ],
+      "compiledAt": "2026-10-02",
+      "verifiedBy": null,
+      "verifiedAt": null
+    },
+    {
+      "id": "fyp_mechanism",
+      "title": "規劃怎樣推行：年度落實和述職",
+      "titleEn": "How the plan is delivered: yearly delivery and review",
+      "area": "planning",
+      "summary": "規劃採用「五年規劃統領、年度施政落實、財政預算支持、年度述職匯報」的機制，並定期監測和評估。「我的五年規劃」借用了同一個結構。",
+      "summaryEn": "The plan sets the five-year direction, is delivered through each year's policy agenda and budget, and is reviewed in an annual report, with regular monitoring. My Five-Year Plan borrows the same structure.",
+      "source": {
+        "doc": "香港特區第一個五年規劃（2026–2030）",
+        "docEn": "Hong Kong's First Five-Year Plan (2026–2030)",
+        "section": null,
+        "report": "中國基金報：香港正式發布首個五年規劃（2026 年 9 月 16 日）",
+        "url": "https://www.chnfund.com/article/AR4cd692bb-345e-ff76-6f9b-3a23bb23f27a"
+      },
+      "officialUrl": "https://www.hk5yplan.gov.hk",
+      "roleIds": [],
+      "tags": [
+        "planning"
+      ],
+      "compiledAt": "2026-10-02",
+      "verifiedBy": null,
+      "verifiedAt": null
+    },
+    {
+      "id": "national_15th_plan_hk",
+      "title": "「十五五」中的香港定位",
+      "titleEn": "Hong Kong's roles in the 15th Five-Year Plan",
+      "area": "planning",
+      "summary": "國家「十五五」規劃提出香港的「十大中心」、「兩大樞紐」和「一個生態圈」定位，特區政府重點推進其中的「四中心、一高地」。",
+      "summaryEn": "China's 15th Five-Year Plan sets out \"ten centres\", \"two hubs\" and \"one ecosystem\" for Hong Kong; the HKSAR Government focuses on \"four centres and one hub\" among them.",
+      "source": {
+        "doc": "國家「十五五」規劃（2026–2030）",
+        "docEn": "China's 15th Five-Year Plan (2026–2030)",
+        "section": null,
+        "report": "當代中國：一文看懂「十五五」藏着哪些香港機遇",
+        "url": "https://www.ourchinastory.com/zh/17152"
+      },
+      "officialUrl": "https://www.hk5yplan.gov.hk",
+      "roleIds": [],
+      "tags": [
+        "planning"
+      ],
+      "compiledAt": "2026-10-02",
+      "verifiedBy": null,
+      "verifiedAt": null
+    },
+    {
+      "id": "four_centres_one_hub",
+      "title": "「四中心、一高地」",
+      "titleEn": "\"Four centres and one hub\"",
+      "area": "planning",
+      "summary": "規劃的重點是國際金融、航運、貿易中心，國際創新科技中心，以及國際高端人才集聚高地。這些範疇的職位和技能需求，可以作為選擇路徑時的參考。",
+      "summaryEn": "The plan focuses on Hong Kong as an international financial, shipping and trade centre, an international innovation and technology centre, and a hub for high-calibre talent. Jobs and skills in these areas are a useful reference when choosing a path.",
+      "source": {
+        "doc": "香港特區第一個五年規劃（2026–2030）",
+        "docEn": "Hong Kong's First Five-Year Plan (2026–2030)",
+        "section": null,
+        "report": "中國基金報：香港正式發布首個五年規劃（2026 年 9 月 16 日）",
+        "url": "https://www.chnfund.com/article/AR4cd692bb-345e-ff76-6f9b-3a23bb23f27a"
+      },
+      "officialUrl": "https://www.hk5yplan.gov.hk",
+      "roleIds": [
+        "marketing_analyst",
+        "ecommerce_executive",
+        "finance_analyst_trainee",
+        "supply_chain_coordinator"
+      ],
+      "tags": [
+        "finance",
+        "trade",
+        "shipping",
+        "innotech",
+        "talent"
+      ],
+      "compiledAt": "2026-10-02",
+      "verifiedBy": null,
+      "verifiedAt": null
+    },
+    {
+      "id": "youth_chapters",
+      "title": "規劃中的兩個青年專章",
+      "titleEn": "Two chapters dedicated to youth",
+      "area": "youth",
+      "summary": "香港第一個五年規劃設有兩個青年專章，與青年發展和就業直接相關。",
+      "summaryEn": "Hong Kong's First Five-Year Plan includes two chapters dedicated to young people, covering youth development and employment.",
+      "source": {
+        "doc": "香港特區第一個五年規劃（2026–2030）",
+        "docEn": "Hong Kong's First Five-Year Plan (2026–2030)",
+        "section": null,
+        "report": "China Daily HK：Hong Kong's 1st five-year plan responds to public aspirations（2026 年 9 月 20 日）",
+        "url": "https://www.chinadailyhk.com/article/639849"
+      },
+      "officialUrl": "https://www.hk5yplan.gov.hk",
+      "roleIds": [
+        "community_programme_officer"
+      ],
+      "tags": [
+        "youth"
+      ],
+      "compiledAt": "2026-10-02",
+      "verifiedBy": null,
+      "verifiedAt": null
+    },
+    {
+      "id": "youth_30k_jobs",
+      "title": "三萬青年職位及實習計劃",
+      "titleEn": "30,000 youth jobs and internships",
+      "area": "youth",
+      "summary": "施政報告推出為期兩年的三萬青年職位及實習計劃：1 萬個六個月或以上的全職職位（政府每月資助 6,000 元或不多於月薪三分之一，為期六個月）、逾 1 萬個創科及青年初創實習名額、1 萬個建造業畢業生培訓名額，以及金融發展局的 1,000 個實習職位。政府會設一站式網頁。",
+      "summaryEn": "The Policy Address announced a two-year scheme of 30,000 youth jobs and internships: 10,000 full-time posts of six months or more (the Government pays HK$6,000 a month or up to one-third of the salary for six months), over 10,000 I&T and youth start-up internships, 10,000 construction graduate training places and 1,000 internships through the Financial Services Development Council. A one-stop website is planned.",
+      "source": {
+        "doc": "行政長官 2026 年施政報告",
+        "docEn": "Chief Executive’s 2026 Policy Address",
+        "section": "第 286 段",
+        "report": "施政報告全文（官方網頁）",
+        "url": "https://www.policyaddress.gov.hk/2026/tc/chapter7.html"
+      },
+      "officialUrl": "https://www.policyaddress.gov.hk/2026/tc/chapter7.html",
+      "roleIds": [
+        "marketing_analyst",
+        "brand_executive",
+        "ecommerce_executive",
+        "operations_associate",
+        "talent_acquisition_assistant",
+        "community_programme_officer"
+      ],
+      "tags": [
+        "youth",
+        "jobs"
+      ],
+      "compiledAt": "2026-10-02",
+      "verifiedBy": "AI 助手對照施政報告官方全文（待 K 覆核）",
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "id": "innotech_youth_internships",
+      "title": "創科及青年初創實習名額",
+      "titleEn": "I&T and youth start-up internships",
+      "area": "innotech",
+      "summary": "擴大創科實習計劃和優化民青局青年初創實習計劃，提供逾 1 萬個名額，每人資助不少於 11,000 元，屬三萬青年職位及實習計劃的一部分。",
+      "summaryEn": "The STEM Internship Scheme will be expanded and the HYAB Youth Start-up Internship Programme improved, providing over 10,000 places with a subsidy of at least HK$11,000 each, as part of the 30,000-place scheme.",
+      "source": {
+        "doc": "行政長官 2026 年施政報告",
+        "docEn": "Chief Executive’s 2026 Policy Address",
+        "section": "第 286(2) 段",
+        "report": "施政報告全文（官方網頁）",
+        "url": "https://www.policyaddress.gov.hk/2026/tc/chapter7.html"
+      },
+      "officialUrl": "https://www.policyaddress.gov.hk/2026/tc/chapter7.html",
+      "roleIds": [
+        "junior_data_analyst",
+        "startup_generalist",
+        "ai_product_operations",
+        "ux_ui_designer"
+      ],
+      "tags": [
+        "innotech",
+        "startup",
+        "tech"
+      ],
+      "compiledAt": "2026-10-02",
+      "verifiedBy": "AI 助手對照施政報告官方全文（待 K 覆核）",
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "id": "fsdc_internships",
+      "title": "金融發展局實習職位",
+      "titleEn": "Financial Services Development Council internships",
+      "area": "finance",
+      "summary": "金融發展局聯同業界推出為期兩年的「金融服務業青年實習計劃」，提供 1,000 個實習職位。",
+      "summaryEn": "The FSDC and the industry will launch a two-year Financial Services Youth Internship Scheme with 1,000 internships.",
+      "source": {
+        "doc": "行政長官 2026 年施政報告",
+        "docEn": "Chief Executive’s 2026 Policy Address",
+        "section": "第 286(4) 段",
+        "report": "施政報告全文（官方網頁）",
+        "url": "https://www.policyaddress.gov.hk/2026/tc/chapter7.html"
+      },
+      "officialUrl": "https://www.policyaddress.gov.hk/2026/tc/chapter7.html",
+      "roleIds": [
+        "finance_analyst_trainee"
+      ],
+      "tags": [
+        "finance"
+      ],
+      "compiledAt": "2026-10-02",
+      "verifiedBy": "AI 助手對照施政報告官方全文（待 K 覆核）",
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "id": "construction_graduate_training",
+      "title": "建造業畢業生培訓名額",
+      "titleEn": "Construction graduate training places",
+      "area": "talent",
+      "summary": "建造業議會在 2027 及 2028 年延續建造業專業畢業生在職培訓津貼，每人每月 5,000 元，提供 1 萬個培訓名額。",
+      "summaryEn": "In 2027 and 2028 the Construction Industry Council will continue the on-the-job training allowance for construction professional graduates: HK$5,000 a month each, for 10,000 training places.",
+      "source": {
+        "doc": "行政長官 2026 年施政報告",
+        "docEn": "Chief Executive’s 2026 Policy Address",
+        "section": "第 286(3) 段",
+        "report": "施政報告全文（官方網頁）",
+        "url": "https://www.policyaddress.gov.hk/2026/tc/chapter7.html"
+      },
+      "officialUrl": "https://www.policyaddress.gov.hk/2026/tc/chapter7.html",
+      "roleIds": [],
+      "tags": [
+        "construction"
+      ],
+      "compiledAt": "2026-10-02",
+      "verifiedBy": "AI 助手對照施政報告官方全文（待 K 覆核）",
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "id": "ai_upskilling",
+      "title": "AI 技能提升計劃",
+      "titleEn": "AI upskilling programme",
+      "area": "talent",
+      "summary": "由升格後的技能提升局推行為期 18 個月的 AI 技能提升計劃，並推出免費全民網上課程，預計惠及至少 4 萬名僱員。技能差距中與 AI 工具有關的部分，可以留意相關培訓。",
+      "summaryEn": "The upgraded skills authority will run an 18-month AI upskilling programme and free online courses for all, expected to benefit at least 40,000 employees. If your skill gap involves AI tools, look out for related training.",
+      "source": {
+        "doc": "行政長官 2026 年施政報告",
+        "docEn": "Chief Executive’s 2026 Policy Address",
+        "section": "第 120 段",
+        "report": "施政報告全文（官方網頁）",
+        "url": "https://www.info.gov.hk/gia/general/202609/16/P2026091600242.htm"
+      },
+      "officialUrl": "https://www.info.gov.hk/gia/general/202609/16/P2026091600242.htm",
+      "roleIds": [
+        "marketing_analyst",
+        "ecommerce_executive",
+        "junior_data_analyst",
+        "operations_associate",
+        "ai_product_operations"
+      ],
+      "tags": [
+        "ai",
+        "training"
+      ],
+      "compiledAt": "2026-10-02",
+      "verifiedBy": "AI 助手對照施政報告官方全文（待 K 覆核）",
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "id": "talent_list",
+      "title": "人才清單",
+      "titleEn": "Talent List",
+      "area": "talent",
+      "summary": "人才清單現時涵蓋 60 個人手短缺的專業，政府亦會研究加入更多與 AI 相關的類別。",
+      "summaryEn": "The Talent List currently covers 60 professions with manpower shortages, and the Government will study adding more AI-related categories.",
+      "source": {
+        "doc": "行政長官 2026 年施政報告",
+        "docEn": "Chief Executive’s 2026 Policy Address",
+        "section": null,
+        "report": "Vialto Partners：The first Five-Year Plan and 2026 Policy Address",
+        "url": "https://vialtopartners.com/regional-alerts/hong-kong-global-mobility-the-first-five-year-plan-and-2026-policy-address-key-measures-to-strengthen-its-position-as-a-global-talent-hub"
+      },
+      "officialUrl": "https://www.policyaddress.gov.hk",
+      "roleIds": [
+        "junior_data_analyst",
+        "ai_product_operations",
+        "talent_acquisition_assistant"
+      ],
+      "tags": [
+        "talent",
+        "ai"
+      ],
+      "compiledAt": "2026-10-02",
+      "verifiedBy": null,
+      "verifiedAt": null
+    },
+    {
+      "id": "innotech_rnd_target",
+      "title": "創新活動開支目標",
+      "titleEn": "Innovation spending target",
+      "area": "innotech",
+      "summary": "政府目標把本地創新活動開支佔本地生產總值的比例，由 2024 年的 1.63% 提升至 2030 年後的 3%。",
+      "summaryEn": "The Government aims to raise local innovation spending from 1.63% of GDP in 2024 to 3% after 2030.",
+      "source": {
+        "doc": "香港特區第一個五年規劃（2026–2030）",
+        "docEn": "Hong Kong's First Five-Year Plan (2026–2030)",
+        "section": null,
+        "report": "AP（經 La Nación 轉載）：Hong Kong unveils first 5-year plan（2026 年 9 月 16 日）",
+        "url": "https://www.lanacion.com.ar/usa/hong-kong-unveils-first-5-year-plan-to-broaden-the-citys-identity-beyond-finance-nid16092026/"
+      },
+      "officialUrl": "https://www.hk5yplan.gov.hk",
+      "roleIds": [
+        "startup_generalist",
+        "ai_product_operations",
+        "ux_ui_designer"
+      ],
+      "tags": [
+        "innotech",
+        "startup"
+      ],
+      "compiledAt": "2026-10-02",
+      "verifiedBy": null,
+      "verifiedAt": null
+    },
+    {
+      "id": "nm_university_town",
+      "title": "北部都會區大學城",
+      "titleEn": "Northern Metropolis University Town",
+      "area": "northern_metropolis",
+      "summary": "規劃以「一城五元素」統籌北部都會區大學城的發展，把教育、科技、產業、人才和城市發展結合起來。",
+      "summaryEn": "The plan develops the Northern Metropolis University Town under \"One Town, Five Elements\", bringing together education, technology, industry, talent and urban development.",
+      "source": {
+        "doc": "香港特區第一個五年規劃（2026–2030）",
+        "docEn": "Hong Kong's First Five-Year Plan (2026–2030)",
+        "section": null,
+        "report": "China Daily HK：Hong Kong's 1st five-year plan responds to public aspirations（2026 年 9 月 20 日）",
+        "url": "https://www.chinadailyhk.com/article/639849"
+      },
+      "officialUrl": "https://www.hk5yplan.gov.hk",
+      "roleIds": [
+        "startup_generalist",
+        "community_programme_officer"
+      ],
+      "tags": [
+        "northern_metropolis",
+        "innotech"
+      ],
+      "compiledAt": "2026-10-02",
+      "verifiedBy": null,
+      "verifiedAt": null
+    }
+  ]
+}

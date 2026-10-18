@@ -1,0 +1,76 @@
+{
+  "id": "ipip_core_strengths_v1",
+  "title": "性格與強項問卷",
+  "titleEn": "Character Strengths Questionnaire",
+  "instrument": "IPIP-VIA-R 核心強項短版（18 題）",
+  "instrumentEn": "IPIP-VIA-R Core Strengths short form (18 items)",
+  "version": "0.1",
+  "pageSize": 6,
+  "source": {
+    "citation": "Partsch, M. V., Olaru, G., & Lechner, C. M. (2022). Measuring global character dimensions: An ant colony optimization approach towards three core strengths scales. PsyArXiv. https://doi.org/10.31234/osf.io/tdjh4",
+    "itemsUrl": "https://ipip.ori.org/IPIP-VIA-R-core-strengths_Key.html",
+    "paperUrl": "https://doi.org/10.31234/osf.io/tdjh4",
+    "license": "IPIP 題目屬公有領域（public domain），可以複製、修改和翻譯，不需申請或付費。",
+    "licenseEn": "IPIP items are in the public domain and may be copied, adapted and translated without permission or fees."
+  },
+  "translationNote": "中文題目是團隊試譯（J2、K 各自翻譯，再由第三位組員回譯比對），未經香港樣本驗證。",
+  "translationNoteEn": "The Chinese items are the team's trial translation (two independent translations plus a back-translation check). They have not been validated with a Hong Kong sample.",
+  "responses": [
+    { "value": 1, "label": "非常不像我", "labelEn": "Very inaccurate" },
+    { "value": 2, "label": "不像我", "labelEn": "Moderately inaccurate" },
+    { "value": 3, "label": "一半一半", "labelEn": "Neither" },
+    { "value": 4, "label": "像我", "labelEn": "Moderately accurate" },
+    { "value": 5, "label": "非常像我", "labelEn": "Very accurate" }
+  ],
+  "scales": [
+    {
+      "key": "positivity", "label": "積極", "labelEn": "Positivity",
+      "about": "保持希望、懂得感恩，並與身邊的人保持連繫。",
+      "aboutEn": "Staying hopeful, feeling grateful and staying connected with people around you.",
+      "work": "在壓力大的項目中幫團隊保持士氣；主動給隊友正面回饋；被拒絕後較快重新出發。",
+      "workEn": "Keep team morale up on high-pressure projects, give teammates positive feedback, and bounce back quickly after a rejection.",
+      "interview": "準備一個你在困難中保持動力、並帶動身邊的人的例子。",
+      "interviewEn": "Prepare an example of staying motivated through a setback and lifting the people around you."
+    },
+    {
+      "key": "dependability", "label": "可靠", "labelEn": "Dependability",
+      "about": "做決定謹慎、待人公平誠實，並且謙遜。",
+      "aboutEn": "Making careful decisions, treating people fairly and honestly, and staying humble.",
+      "work": "適合需要按時交付、處理敏感資料，或要公平對待各方的工作；可以主動負責檢查和跟進。",
+      "workEn": "Suits work with firm deadlines, sensitive data or several parties to treat fairly; volunteer to own checking and follow-up.",
+      "interview": "準備一個你按承諾完成任務，或在壓力下堅守原則的例子。",
+      "interviewEn": "Prepare an example of delivering on a commitment or holding to your principles under pressure."
+    },
+    {
+      "key": "mastery", "label": "精進", "labelEn": "Mastery",
+      "about": "獨立思考、判斷力強，並且能夠帶動別人一起做事。",
+      "aboutEn": "Thinking independently, exercising sound judgement and getting people to work together.",
+      "work": "適合需要提出新方法、作出判斷或協調不同人的工作；可以爭取帶領小組項目。",
+      "workEn": "Suits work that needs new approaches, judgement calls or coordination across people; ask to lead a small project.",
+      "interview": "準備一個你提出新想法，並說服別人一起完成的例子。",
+      "interviewEn": "Prepare an example of proposing a new idea and persuading others to deliver it with you."
+    }
+  ],
+  "items": [
+    { "id": "pos1", "scale": "positivity", "keyed": 1, "text": "遇到困難時，我仍然保持希望。", "textEn": "Remain hopeful despite challenges." },
+    { "id": "dep1", "scale": "dependability", "keyed": 1, "text": "我做選擇時小心謹慎。", "textEn": "Make careful choices." },
+    { "id": "mas1", "scale": "mastery", "keyed": 1, "text": "我的想法很有原創性。", "textEn": "Am an original thinker." },
+    { "id": "pos4", "scale": "positivity", "keyed": -1, "text": "我覺得生活中沒有甚麼值得感恩。", "textEn": "Find few things in my life to be grateful for." },
+    { "id": "dep4", "scale": "dependability", "keyed": -1, "text": "我會說謊，讓自己避過麻煩。", "textEn": "Lie to get myself out of trouble." },
+    { "id": "mas4", "scale": "mastery", "keyed": -1, "text": "我不會為自己的信念據理力爭。", "textEn": "Do not stand up for my beliefs." },
+
+    { "id": "pos2", "scale": "positivity", "keyed": 1, "text": "我期待每一個新的日子。", "textEn": "Look forward to each new day." },
+    { "id": "dep2", "scale": "dependability", "keyed": 1, "text": "別人絕不會形容我自大。", "textEn": "Would never be described as arrogant." },
+    { "id": "mas2", "scale": "mastery", "keyed": 1, "text": "我對人生有成熟的看法。", "textEn": "Have a mature view on life." },
+    { "id": "pos5", "scale": "positivity", "keyed": -1, "text": "我很難原諒別人。", "textEn": "Find it hard to forgive others." },
+    { "id": "dep5", "scale": "dependability", "keyed": -1, "text": "別人向我傾訴問題時，我會不耐煩。", "textEn": "Get impatient when others talk to me about their problems." },
+    { "id": "mas5", "scale": "mastery", "keyed": -1, "text": "我很難估計別人會有甚麼反應。", "textEn": "Have trouble guessing how others will react." },
+
+    { "id": "pos3", "scale": "positivity", "keyed": 1, "text": "我知道身邊有人關心我，就像關心他們自己一樣。", "textEn": "Know that there are people in my life who care as much for me as for themselves." },
+    { "id": "dep3", "scale": "dependability", "keyed": 1, "text": "我相信每個人的權利都同樣重要。", "textEn": "Believe that everyone's rights are equally important." },
+    { "id": "mas3", "scale": "mastery", "keyed": 1, "text": "朋友重視我的判斷力。", "textEn": "Am valued by my friends for my good judgment." },
+    { "id": "pos6", "scale": "positivity", "keyed": -1, "text": "我很難接受別人對我的關愛。", "textEn": "Have difficulty accepting love from anyone." },
+    { "id": "dep6", "scale": "dependability", "keyed": -1, "text": "我會佔別人便宜。", "textEn": "Take advantage of others." },
+    { "id": "mas6", "scale": "mastery", "keyed": -1, "text": "我很難令別人一起合作。", "textEn": "Have difficulty getting others to work together." }
+  ]
+}
